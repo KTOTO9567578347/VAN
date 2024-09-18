@@ -23,9 +23,9 @@
 
 Перед запуском в Venv нужно установить: 
 
-- pip install Pytorch
+- pip install opencv-python
   
-- pip install OpenCV
+- pip install ultralytics
 
 в cmd перейдите к расположению файла main.py
 введите python main.py
