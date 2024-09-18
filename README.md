@@ -9,6 +9,7 @@
 
 Создание Venv:
 - Windows:
+- 
   1)открываете cmd
   
   2)вводите python -m venv /ваш/путь/к/папке/
@@ -24,9 +25,8 @@
 Перед запуском в Venv нужно установить: 
 
 - pip install Pytorch
-- 
+  
 - pip install OpenCV
-- 
 
 в cmd перейдите к расположению файла main.py
 введите python main.py
