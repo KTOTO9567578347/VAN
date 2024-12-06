@@ -1,6 +1,6 @@
 # VAN
 
-<img src="assets/data_kvantum_logo.png" width="200" height="200" />
+<img src="assets/Новый рисунок.png" width="200" height="200" />
 
 Система анализа видео и классификации эмоций
 
