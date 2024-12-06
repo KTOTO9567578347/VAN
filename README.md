@@ -1,6 +1,6 @@
 # VAN
 
-<img src="assets/Новый рисунок.png" width="200" height="200" />
+<img src="assets/header.png" width="500" height="100" />
 
 Система анализа видео и классификации эмоций
 
