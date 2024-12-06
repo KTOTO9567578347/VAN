@@ -1,22 +1,23 @@
-
-from PIL import Image, ImageTk 
-import datetime
-from ultralytics import YOLO
+#загрузка библиотек
+from PIL import Image, ImageTk #встроенный пакет для создания UI
 import tkinter as tk
 from tkinter import ttk
+import datetime
+from ultralytics import YOLO #API для упрощения загрузки и развертывания моделей
 import cv2
-from pygrabber.dshow_graph import FilterGraph
+from pygrabber.dshow_graph import FilterGraph #для обнаружения камер
 from sys import exit
-
-vid_save_path = "."
-
 import logging
+
+#настроим логирование
+vid_save_path = "."
 logging.basicConfig(filename="logs.txt",
                     filemode='a',
                     format='%(asctime)s %(message)s',
                     datefmt='%Y-%m-%d %H:%M:%S',
                     level=logging.DEBUG)
 
+#модель для поиска лиц
 class face_model:
 	def __init__(self):
 		self.model = YOLO('detect_face_model.pt')
@@ -28,6 +29,7 @@ class face_model:
 				dat.append([x - w//2, y - h//2, w, h])
 		return dat
 
+#класс для классификации эмоций
 class CV:
 	def __init__(self, output_app):
 		self.app = output_app
@@ -44,7 +46,7 @@ class CV:
 		self.frame = None
 		self.out = cv2.VideoWriter(vid_save_path + '/' + str(datetime.datetime.now())+'.avi', self.fourcc, self.video_write_FPS, (640, 480))
 	
-	def open_camera(self):
+	def open_camera(self): #открыть выбранную пользователем камеру
 		ret, frame = self.vid.read()
 		if (not ret or type(frame) == None):
 			self.vid.release()
@@ -80,24 +82,24 @@ class CV:
 	def get_vid_save_name(self):
 		return str(datetime.datetime.now()).split('.')[0].replace(' ', '_').replace(':', '_')+'.avi'
 
-	def get_available_cameras(self) :
+	def get_available_cameras(self): #получить список доступных камер
 		devices = FilterGraph().get_input_devices()
 		available_cameras = {}
 		for device_index, device_name in enumerate(devices):
 			available_cameras[device_index] = device_name
 		return available_cameras
 	
-	def update_camera_list(self):
+	def update_camera_list(self): #обновить список доступных камер
 		cur_cam_list =  self.get_available_cameras()
 		self.app.cameras_list_widget['value'] = [str(' '.join([str(key), cur_cam_list[key]])) for key in cur_cam_list.keys()]
 
-	def recap_camera(self):
+	def recap_camera(self): #перезахват видеопотока на новую камеру
 		global vid
 		cur_cam = int(self.app.selected_camera.get().split()[0])
 		print(cur_cam, " recapped")
 		self.vid = cv2.VideoCapture(cur_cam, cv2.CAP_DSHOW)
 
-	def start_record(self):
+	def start_record(self): #начать запись видео
 		if (self.app.is_on_air.get()):
 			vid_save_name = self.get_vid_save_name()
 			print("start recording of ", vid_save_name)
@@ -106,7 +108,7 @@ class CV:
 			print("End recording...")
 			self.out.release()
 
-class main_win:
+class main_win: #класс интерфейса
 	def __init__(self):
 		self.cv = CV(self)
 		self.app = tk.Tk()
@@ -145,7 +147,7 @@ class main_win:
 		self.cv.vid.release()
 		start_win()
 
-class start_win:
+class start_win: #класс стартового окна
 	def __init__(self):
 		self.start_window = tk.Tk()
 		self.start_window.title("VAN (Video Analytic Network)")
