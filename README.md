@@ -4,7 +4,7 @@
 
 УСТАНОВКА ДЛЯ V2 (актуальня версия):
 
-Скачайте и распакуйте system_V2.zip отсюда.
+Скачайте и распакуйте system_V2.zip отсюда https://drive.google.com/file/d/1-ipD2wqe5IcrSXBYxmotU-zQh8W2rIym/view?usp=sharing.
 Запустите файл interface_classes.exe
 Подождите несколько секунд пока система запускается.
 
