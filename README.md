@@ -1,5 +1,7 @@
 # VAN
 
+![screenshot](assets/data_kvantum_logo.png)
+
 Система анализа видео и классификации эмоций
 
 Информация о версиях:
