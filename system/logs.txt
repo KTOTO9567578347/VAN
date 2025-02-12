@@ -1,0 +1,1130 @@
+2025-02-07 13:19:03 STREAM b'IHDR' 16 13
+2025-02-07 13:19:03 STREAM b'IDAT' 41 32768
+2025-02-07 13:19:14 
+2025-02-07 13:19:26 
+2025-02-07 13:19:26 
+2025-02-07 13:19:26 
+2025-02-07 13:19:26 
+2025-02-07 13:19:26 
+2025-02-07 13:19:26 
+2025-02-07 13:19:26 
+2025-02-07 13:19:26 
+2025-02-07 13:19:27 
+2025-02-07 13:19:27 
+2025-02-07 13:19:27 
+2025-02-07 13:19:27 
+2025-02-07 13:19:27 
+2025-02-07 13:19:27 
+2025-02-07 13:19:27 
+2025-02-07 13:19:27 
+2025-02-07 13:19:27 
+2025-02-07 13:19:27 
+2025-02-07 13:19:27 
+2025-02-07 13:19:27 
+2025-02-07 13:19:27 
+2025-02-07 13:19:27 
+2025-02-07 13:19:27 
+2025-02-07 13:19:27 
+2025-02-07 13:19:28 
+2025-02-07 13:19:28 
+2025-02-07 13:19:28 
+2025-02-07 13:19:28 
+2025-02-07 13:19:28 
+2025-02-07 13:19:28 
+2025-02-07 13:19:28 
+2025-02-07 13:19:28 
+2025-02-07 13:19:28 
+2025-02-07 13:19:28 
+2025-02-07 13:19:28 
+2025-02-07 13:19:28 
+2025-02-07 13:19:28 
+2025-02-07 13:19:28 
+2025-02-07 13:19:28 
+2025-02-07 13:19:28 
+2025-02-07 13:19:29 
+2025-02-07 13:19:29 
+2025-02-07 13:19:29 
+2025-02-07 13:19:29 
+2025-02-07 13:19:29 
+2025-02-07 13:19:29 
+2025-02-07 13:19:29 
+2025-02-07 13:19:29 
+2025-02-07 13:19:29 
+2025-02-07 13:19:29 
+2025-02-07 13:19:29 
+2025-02-07 13:19:29 
+2025-02-07 13:19:29 
+2025-02-07 13:19:29 
+2025-02-07 13:19:29 
+2025-02-07 13:19:29 
+2025-02-07 13:19:29 
+2025-02-07 13:19:30 
+2025-02-07 13:19:30 
+2025-02-07 13:19:30 
+2025-02-07 13:19:30 
+2025-02-07 13:19:30 
+2025-02-07 13:19:30 
+2025-02-07 13:19:30 
+2025-02-07 13:19:30 
+2025-02-07 13:19:30 
+2025-02-07 13:19:30 
+2025-02-07 13:19:30 
+2025-02-07 13:19:30 
+2025-02-07 13:19:30 
+2025-02-07 13:19:30 
+2025-02-07 13:19:30 
+2025-02-07 13:19:30 
+2025-02-07 13:19:30 
+2025-02-07 13:19:31 
+2025-02-07 13:19:31 
+2025-02-07 13:19:31 
+2025-02-07 13:19:31 
+2025-02-07 13:19:31 
+2025-02-07 13:19:31 
+2025-02-07 13:19:31 happy
+2025-02-07 13:19:31 
+2025-02-07 13:19:31 surprise
+2025-02-07 13:19:31 surprise
+2025-02-07 13:19:31 surprise
+2025-02-07 13:19:31 surprise
+2025-02-07 13:19:32 surprise
+2025-02-07 13:19:32 surprise
+2025-02-07 13:19:32 surprise
+2025-02-07 13:19:32 surprise
+2025-02-07 13:19:32 surprise
+2025-02-07 13:19:32 happy fear
+2025-02-07 13:19:32 happy fear
+2025-02-07 13:19:32 happy fear
+2025-02-07 13:19:32 happy fear
+2025-02-07 13:19:32 happy
+2025-02-07 13:19:32 happy
+2025-02-07 13:19:32 happy
+2025-02-07 13:19:33 happy
+2025-02-07 13:19:33 happy
+2025-02-07 13:19:33 happy sad
+2025-02-07 13:19:33 happy sad
+2025-02-07 13:19:33 happy
+2025-02-07 13:19:33 happy
+2025-02-07 13:19:33 happy
+2025-02-07 13:19:33 happy
+2025-02-07 13:19:33 happy
+2025-02-07 13:19:33 happy
+2025-02-07 13:19:33 happy
+2025-02-07 13:19:33 happy
+2025-02-07 13:19:33 happy
+2025-02-07 13:19:33 happy
+2025-02-07 13:19:34 happy
+2025-02-07 13:19:34 happy
+2025-02-07 13:19:34 happy
+2025-02-07 13:19:34 happy
+2025-02-07 13:19:34 happy
+2025-02-07 13:19:34 happy
+2025-02-07 13:19:34 happy
+2025-02-07 13:19:34 happy
+2025-02-07 13:19:34 happy
+2025-02-07 13:19:34 happy
+2025-02-07 13:19:34 happy
+2025-02-07 13:19:34 happy
+2025-02-07 13:19:34 happy
+2025-02-07 13:19:34 happy
+2025-02-07 13:19:34 happy
+2025-02-07 13:19:34 happy
+2025-02-07 13:19:34 happy
+2025-02-07 13:19:35 happy
+2025-02-07 13:19:35 happy
+2025-02-07 13:19:35 happy
+2025-02-07 13:19:35 happy
+2025-02-07 13:19:35 happy
+2025-02-07 13:19:35 happy
+2025-02-07 13:19:35 happy
+2025-02-07 13:19:35 happy
+2025-02-07 13:19:35 happy
+2025-02-07 13:19:35 happy
+2025-02-07 13:19:35 happy
+2025-02-07 13:19:35 happy
+2025-02-07 13:19:35 happy
+2025-02-07 13:19:35 happy
+2025-02-07 13:19:35 happy
+2025-02-07 13:19:35 happy
+2025-02-07 13:19:36 happy
+2025-02-07 13:19:36 happy
+2025-02-07 13:19:36 happy
+2025-02-07 13:19:36 happy
+2025-02-07 13:19:36 happy
+2025-02-07 13:19:36 happy
+2025-02-07 13:19:36 happy
+2025-02-07 13:19:36 happy
+2025-02-07 13:19:36 happy
+2025-02-07 13:19:36 happy
+2025-02-07 13:19:36 happy
+2025-02-07 13:19:36 happy
+2025-02-07 13:19:36 happy
+2025-02-07 13:19:36 happy
+2025-02-07 13:19:36 happy
+2025-02-07 13:19:36 happy
+2025-02-07 13:19:37 happy
+2025-02-07 13:19:37 happy
+2025-02-07 13:19:37 happy
+2025-02-07 13:19:37 happy
+2025-02-07 13:19:37 happy
+2025-02-07 13:19:37 happy
+2025-02-07 13:19:37 happy
+2025-02-07 13:19:37 happy
+2025-02-07 13:19:37 happy
+2025-02-07 13:19:37 happy
+2025-02-07 13:19:37 happy
+2025-02-07 13:19:37 happy
+2025-02-07 13:19:37 happy
+2025-02-07 13:19:37 happy
+2025-02-07 13:19:38 happy
+2025-02-07 13:19:38 happy
+2025-02-07 13:19:38 happy
+2025-02-07 13:19:38 happy
+2025-02-07 13:19:38 happy
+2025-02-07 13:19:38 happy
+2025-02-07 13:19:38 happy
+2025-02-07 13:19:38 happy
+2025-02-07 13:19:38 happy
+2025-02-07 13:19:38 happy
+2025-02-07 13:19:38 happy
+2025-02-07 13:19:38 happy
+2025-02-07 13:19:38 happy
+2025-02-07 13:19:38 happy
+2025-02-07 13:19:39 happy
+2025-02-07 13:19:39 happy
+2025-02-07 13:19:39 happy
+2025-02-07 13:19:39 happy
+2025-02-07 13:19:39 happy
+2025-02-07 13:19:39 happy
+2025-02-07 13:19:39 happy
+2025-02-07 13:19:39 happy
+2025-02-07 13:19:39 happy
+2025-02-07 13:19:39 happy
+2025-02-07 13:19:39 happy
+2025-02-07 13:19:39 happy
+2025-02-07 13:19:39 happy
+2025-02-07 13:19:39 happy
+2025-02-07 13:19:40 happy
+2025-02-07 13:19:40 happy
+2025-02-07 13:19:40 happy
+2025-02-07 13:19:40 happy
+2025-02-07 13:19:40 happy
+2025-02-07 13:19:40 happy
+2025-02-07 13:19:40 happy
+2025-02-07 13:19:40 happy
+2025-02-07 13:19:40 happy
+2025-02-07 13:19:40 happy
+2025-02-07 13:19:40 happy
+2025-02-07 13:19:40 
+2025-02-07 13:19:40 
+2025-02-07 13:19:40 
+2025-02-07 13:19:40 
+2025-02-07 13:19:41 
+2025-02-07 13:19:41 sad
+2025-02-07 13:19:41 sad
+2025-02-07 13:19:41 
+2025-02-07 13:19:41 
+2025-02-07 13:19:41 
+2025-02-07 13:19:41 
+2025-02-07 13:19:41 sad
+2025-02-07 13:19:41 
+2025-02-07 13:19:41 
+2025-02-07 13:19:41 
+2025-02-07 13:19:41 
+2025-02-07 13:19:41 sad
+2025-02-07 13:19:41 sad
+2025-02-07 13:19:41 happy
+2025-02-07 13:19:42 happy
+2025-02-07 13:19:42 happy
+2025-02-07 13:19:42 happy
+2025-02-07 13:19:42 happy sad
+2025-02-07 13:19:42 happy
+2025-02-07 13:19:42 happy
+2025-02-07 13:19:42 happy
+2025-02-07 13:19:42 happy sad
+2025-02-07 13:19:42 happy sad
+2025-02-07 13:19:42 happy sad
+2025-02-07 13:19:42 happy
+2025-02-07 13:19:42 happy
+2025-02-07 13:19:42 happy
+2025-02-07 13:19:42 happy sad
+2025-02-07 13:19:42 happy sad
+2025-02-07 13:19:43 happy
+2025-02-07 13:19:43 happy
+2025-02-07 13:19:43 happy
+2025-02-07 13:19:43 happy sad
+2025-02-07 13:19:43 happy sad
+2025-02-07 13:19:43 happy
+2025-02-07 13:19:43 happy
+2025-02-07 13:19:43 happy
+2025-02-07 13:19:43 happy
+2025-02-07 13:19:43 happy sad
+2025-02-07 13:19:43 happy
+2025-02-07 13:19:43 happy
+2025-02-07 13:19:43 happy
+2025-02-07 13:19:43 happy
+2025-02-07 13:19:43 happy
+2025-02-07 13:19:43 happy
+2025-02-07 13:19:43 happy
+2025-02-07 13:19:44 happy
+2025-02-07 13:19:44 happy
+2025-02-07 13:19:44 happy
+2025-02-07 13:19:44 happy sad
+2025-02-07 13:19:44 happy
+2025-02-07 13:19:44 happy
+2025-02-07 13:19:44 happy
+2025-02-07 13:19:44 happy sad
+2025-02-07 13:19:44 happy sad
+2025-02-07 13:19:44 happy
+2025-02-07 13:19:44 
+2025-02-07 13:19:44 
+2025-02-07 13:19:44 
+2025-02-07 13:19:44 sad
+2025-02-07 13:19:44 sad
+2025-02-07 13:19:44 sad
+2025-02-07 13:19:45 
+2025-02-07 13:19:45 
+2025-02-07 13:19:45 
+2025-02-07 13:19:45 sad
+2025-02-07 13:19:45 sad
+2025-02-07 13:19:45 
+2025-02-07 13:19:45 
+2025-02-07 13:19:45 
+2025-02-07 13:19:45 
+2025-02-07 13:19:45 sad
+2025-02-07 13:19:45 sad
+2025-02-07 13:19:45 
+2025-02-07 13:19:45 happy
+2025-02-07 13:19:45 happy
+2025-02-07 13:19:45 happy
+2025-02-07 13:19:45 happy
+2025-02-07 13:19:46 surprise
+2025-02-07 13:19:46 surprise
+2025-02-07 13:19:46 surprise
+2025-02-07 13:19:46 surprise
+2025-02-07 13:19:46 surprise
+2025-02-07 13:19:46 surprise
+2025-02-07 13:19:46 surprise
+2025-02-07 13:19:46 surprise
+2025-02-07 13:19:46 surprise
+2025-02-07 13:19:46 Calling CoUninitialize()
+2025-02-07 13:19:46 CoUninitialize() done.
+2025-02-07 13:30:06 STREAM b'IHDR' 16 13
+2025-02-07 13:30:06 STREAM b'IDAT' 41 32768
+2025-02-07 13:30:10 
+2025-02-07 13:30:11 sad neutral angry
+2025-02-07 13:30:11 sad neutral angry
+2025-02-07 13:30:11 sad neutral angry
+2025-02-07 13:30:11 sad happy
+2025-02-07 13:30:11 sad happy
+2025-02-07 13:30:11 sad happy
+2025-02-07 13:30:11 sad neutral
+2025-02-07 13:30:11 sad neutral
+2025-02-07 13:30:11 sad neutral
+2025-02-07 13:30:11 sad neutral angry
+2025-02-07 13:30:11 sad neutral angry
+2025-02-07 13:30:12 sad neutral surprise
+2025-02-07 13:30:12 sad neutral surprise
+2025-02-07 13:30:12 sad neutral surprise
+2025-02-07 13:30:12 sad neutral surprise
+2025-02-07 13:30:12 sad sad surprise
+2025-02-07 13:30:12 sad sad surprise
+2025-02-07 13:30:12 sad sad surprise
+2025-02-07 13:30:12 sad sad surprise
+2025-02-07 13:30:12 sad sad surprise
+2025-02-07 13:30:12 sad sad surprise
+2025-02-07 13:30:12 sad sad surprise
+2025-02-07 13:30:12 sad sad angry surprise
+2025-02-07 13:30:12 sad sad angry surprise
+2025-02-07 13:30:13 sad sad angry surprise
+2025-02-07 13:30:13 sad sad angry surprise
+2025-02-07 13:30:13 sad sad angry surprise
+2025-02-07 13:30:13 sad sad angry surprise
+2025-02-07 13:30:13 sad sad angry surprise
+2025-02-07 13:30:13 sad sad angry surprise
+2025-02-07 13:30:13 sad sad angry surprise
+2025-02-07 13:30:13 sad sad angry surprise
+2025-02-07 13:30:13 sad sad angry surprise
+2025-02-07 13:30:13 happy sad angry surprise
+2025-02-07 13:30:13 happy sad angry surprise
+2025-02-07 13:30:13 happy sad angry surprise
+2025-02-07 13:30:13 happy sad angry surprise
+2025-02-07 13:30:14 happy sad angry surprise
+2025-02-07 13:30:14 happy neutral angry surprise
+2025-02-07 13:30:14 happy neutral angry surprise
+2025-02-07 13:30:14 happy neutral angry surprise
+2025-02-07 13:30:14 happy neutral angry surprise
+2025-02-07 13:30:14 happy neutral neutral angry
+2025-02-07 13:30:14 happy neutral neutral angry
+2025-02-07 13:30:14 neutral neutral angry
+2025-02-07 13:30:14 neutral neutral angry
+2025-02-07 13:30:14 neutral neutral angry
+2025-02-07 13:30:14 neutral neutral angry
+2025-02-07 13:30:14 neutral neutral angry
+2025-02-07 13:30:14 neutral neutral angry happy
+2025-02-07 13:30:15 neutral neutral angry happy happy
+2025-02-07 13:30:15 neutral neutral angry happy happy
+2025-02-07 13:30:15 neutral neutral angry happy happy
+2025-02-07 13:30:15 neutral neutral angry surprise happy
+2025-02-07 13:30:15 neutral neutral angry surprise neutral
+2025-02-07 13:30:15 neutral neutral angry surprise neutral
+2025-02-07 13:30:15 neutral neutral angry neutral neutral
+2025-02-07 13:30:15 neutral neutral angry neutral neutral
+2025-02-07 13:30:15 neutral neutral angry happy neutral
+2025-02-07 13:30:15 neutral neutral angry neutral neutral
+2025-02-07 13:30:15 neutral neutral angry happy neutral
+2025-02-07 13:30:15 surprise neutral angry happy neutral
+2025-02-07 13:30:15 neutral neutral angry happy neutral
+2025-02-07 13:30:16 neutral neutral angry happy neutral
+2025-02-07 13:30:16 neutral neutral angry happy neutral
+2025-02-07 13:30:16 surprise neutral angry happy neutral
+2025-02-07 13:30:16 surprise neutral angry happy neutral
+2025-02-07 13:30:16 surprise neutral angry happy neutral
+2025-02-07 13:30:16 surprise neutral angry happy neutral
+2025-02-07 13:30:16 surprise neutral angry happy neutral
+2025-02-07 13:30:16 happy neutral angry happy neutral
+2025-02-07 13:30:16 happy neutral angry happy neutral
+2025-02-07 13:30:16 happy neutral angry happy neutral
+2025-02-07 13:30:16 happy neutral angry happy happy
+2025-02-07 13:30:16 happy neutral angry happy happy
+2025-02-07 13:30:16 happy neutral angry happy happy
+2025-02-07 13:30:16 happy neutral angry happy happy
+2025-02-07 13:30:17 happy neutral angry happy happy
+2025-02-07 13:30:17 happy neutral angry happy happy
+2025-02-07 13:30:17 happy neutral angry happy happy
+2025-02-07 13:30:17 happy neutral angry happy happy
+2025-02-07 13:30:17 happy neutral angry happy happy
+2025-02-07 13:30:17 happy neutral angry happy happy
+2025-02-07 13:30:17 happy neutral angry happy happy
+2025-02-07 13:30:17 happy neutral angry happy happy
+2025-02-07 13:30:17 happy neutral angry happy happy
+2025-02-07 13:30:17 happy neutral angry happy happy
+2025-02-07 13:30:17 happy neutral angry happy happy
+2025-02-07 13:30:17 neutral angry happy happy
+2025-02-07 13:30:17 neutral angry happy happy
+2025-02-07 13:30:18 neutral angry happy happy
+2025-02-07 13:30:18 neutral angry happy
+2025-02-07 13:30:18 neutral angry happy
+2025-02-07 13:30:18 neutral angry happy
+2025-02-07 13:30:18 neutral angry happy
+2025-02-07 13:30:18 neutral angry happy
+2025-02-07 13:30:18 neutral angry happy
+2025-02-07 13:30:18 neutral angry happy neutral
+2025-02-07 13:30:18 neutral angry happy neutral
+2025-02-07 13:30:18 neutral angry happy surprise
+2025-02-07 13:30:18 neutral angry happy surprise angry
+2025-02-07 13:30:18 neutral angry happy surprise angry
+2025-02-07 13:30:18 neutral angry happy happy angry
+2025-02-07 13:30:18 neutral angry happy happy angry
+2025-02-07 13:30:19 neutral angry happy angry
+2025-02-07 13:30:19 neutral angry happy angry
+2025-02-07 13:30:19 neutral angry happy happy
+2025-02-07 13:30:19 neutral happy happy happy
+2025-02-07 13:30:19 neutral happy happy happy
+2025-02-07 13:30:19 neutral happy happy happy
+2025-02-07 13:30:19 neutral happy happy happy
+2025-02-07 13:30:19 neutral happy happy happy
+2025-02-07 13:30:19 neutral happy happy
+2025-02-07 13:30:19 neutral happy happy
+2025-02-07 13:30:19 happy happy happy
+2025-02-07 13:30:19 happy happy happy
+2025-02-07 13:30:19 sad happy happy
+2025-02-07 13:30:19 sad happy happy
+2025-02-07 13:30:19 sad happy happy neutral
+2025-02-07 13:30:20 sad happy happy neutral
+2025-02-07 13:30:20 sad happy happy neutral
+2025-02-07 13:30:20 sad happy happy neutral
+2025-02-07 13:30:20 sad happy happy
+2025-02-07 13:30:20 sad happy happy
+2025-02-07 13:30:20 sad happy happy
+2025-02-07 13:30:20 sad happy happy
+2025-02-07 13:30:20 sad happy happy
+2025-02-07 13:30:20 sad angry happy neutral
+2025-02-07 13:30:20 sad angry happy neutral
+2025-02-07 13:30:20 sad angry neutral
+2025-02-07 13:30:20 angry neutral
+2025-02-07 13:30:20 angry
+2025-02-07 13:30:20 angry neutral
+2025-02-07 13:30:21 angry neutral
+2025-02-07 13:30:21 
+2025-02-07 13:30:21 
+2025-02-07 13:30:21 
+2025-02-07 13:30:21 sad
+2025-02-07 13:30:21 
+2025-02-07 13:30:21 angry sad
+2025-02-07 13:30:21 sad
+2025-02-07 13:30:21 sad angry
+2025-02-07 13:30:21 sad angry
+2025-02-07 13:30:21 sad angry
+2025-02-07 13:30:21 angry sad
+2025-02-07 13:30:21 surprise sad
+2025-02-07 13:30:21 surprise sad
+2025-02-07 13:30:21 surprise sad happy
+2025-02-07 13:30:21 sad sad happy
+2025-02-07 13:30:22 sad sad surprise
+2025-02-07 13:30:22 neutral sad happy
+2025-02-07 13:30:22 sad sad happy
+2025-02-07 13:30:22 sad sad happy
+2025-02-07 13:30:22 sad sad happy angry
+2025-02-07 13:30:22 sad sad happy happy
+2025-02-07 13:30:22 sad sad happy happy
+2025-02-07 13:30:22 sad sad happy happy
+2025-02-07 13:30:22 sad sad happy angry
+2025-02-07 13:30:22 sad sad happy angry
+2025-02-07 13:30:22 sad sad happy angry
+2025-02-07 13:30:22 sad sad happy angry
+2025-02-07 13:30:22 sad sad happy angry
+2025-02-07 13:30:22 sad sad happy angry
+2025-02-07 13:30:23 sad sad sad angry
+2025-02-07 13:30:23 sad sad sad angry
+2025-02-07 13:30:23 sad sad sad angry
+2025-02-07 13:30:23 sad sad sad angry
+2025-02-07 13:30:23 sad sad sad angry
+2025-02-07 13:30:23 angry sad sad angry
+2025-02-07 13:30:23 angry sad sad
+2025-02-07 13:30:23 angry sad sad
+2025-02-07 13:30:23 angry sad sad
+2025-02-07 13:30:23 angry sad sad
+2025-02-07 13:30:23 angry sad sad
+2025-02-07 13:30:23 angry sad sad
+2025-02-07 13:30:23 angry sad sad
+2025-02-07 13:30:23 angry sad sad
+2025-02-07 13:30:24 sad sad sad
+2025-02-07 13:30:24 sad sad sad
+2025-02-07 13:30:24 sad sad sad
+2025-02-07 13:30:24 sad sad sad surprise
+2025-02-07 13:30:24 sad sad happy surprise
+2025-02-07 13:30:24 sad sad happy surprise
+2025-02-07 13:30:24 sad sad happy surprise
+2025-02-07 13:30:24 sad sad happy surprise
+2025-02-07 13:30:24 sad sad happy surprise
+2025-02-07 13:30:24 sad sad happy surprise
+2025-02-07 13:30:24 sad sad happy surprise happy
+2025-02-07 13:30:24 sad sad happy surprise
+2025-02-07 13:30:24 sad sad happy surprise
+2025-02-07 13:30:24 sad sad happy surprise
+2025-02-07 13:30:25 sad sad happy surprise
+2025-02-07 13:30:25 sad sad happy surprise
+2025-02-07 13:30:25 sad sad happy surprise
+2025-02-07 13:30:25 sad happy sad surprise
+2025-02-07 13:30:25 sad happy sad surprise
+2025-02-07 13:30:25 fear sad happy sad surprise
+2025-02-07 13:30:25 fear sad happy sad surprise
+2025-02-07 13:30:25 surprise sad happy sad surprise
+2025-02-07 13:30:25 surprise sad happy sad surprise
+2025-02-07 13:30:25 surprise sad happy sad surprise
+2025-02-07 13:30:25 surprise sad happy sad
+2025-02-07 13:30:25 sad happy sad
+2025-02-07 13:30:25 sad sad sad
+2025-02-07 13:30:25 sad sad sad
+2025-02-07 13:30:26 sad sad sad neutral surprise
+2025-02-07 13:30:26 sad sad sad neutral surprise
+2025-02-07 13:30:26 sad sad sad neutral angry
+2025-02-07 13:30:26 surprise sad sad sad angry
+2025-02-07 13:30:26 sad sad sad sad neutral surprise
+2025-02-07 13:30:26 sad sad sad sad surprise
+2025-02-07 13:30:26 surprise sad sad sad surprise
+2025-02-07 13:30:26 surprise sad sad sad surprise
+2025-02-07 13:30:26 surprise sad sad sad surprise
+2025-02-07 13:30:26 surprise sad sad sad surprise
+2025-02-07 13:30:26 surprise sad sad sad surprise
+2025-02-07 13:30:26 surprise sad sad sad surprise surprise
+2025-02-07 13:30:26 surprise surprise sad sad surprise surprise
+2025-02-07 13:30:27 surprise surprise sad sad surprise
+2025-02-07 13:30:27 surprise surprise sad sad surprise
+2025-02-07 13:30:27 surprise surprise sad sad surprise
+2025-02-07 13:30:27 surprise surprise sad sad surprise
+2025-02-07 13:30:27 surprise surprise sad sad surprise
+2025-02-07 13:30:27 surprise surprise sad sad surprise
+2025-02-07 13:30:27 surprise surprise sad sad surprise
+2025-02-07 13:30:27 surprise surprise sad sad surprise
+2025-02-07 13:30:27 surprise surprise sad sad surprise
+2025-02-07 13:30:27 surprise surprise sad sad surprise
+2025-02-07 13:30:27 surprise surprise sad sad surprise
+2025-02-07 13:30:27 surprise surprise sad sad surprise
+2025-02-07 13:30:27 surprise surprise sad sad surprise
+2025-02-07 13:30:28 surprise surprise sad sad
+2025-02-07 13:30:28 surprise surprise sad sad surprise
+2025-02-07 13:30:28 surprise surprise sad sad surprise
+2025-02-07 13:30:28 surprise surprise sad sad surprise
+2025-02-07 13:30:28 surprise surprise sad sad surprise
+2025-02-07 13:30:28 surprise surprise sad sad
+2025-02-07 13:30:28 surprise surprise sad sad surprise
+2025-02-07 13:30:28 surprise surprise sad sad surprise
+2025-02-07 13:30:28 surprise surprise happy sad surprise
+2025-02-07 13:30:28 surprise happy sad surprise
+2025-02-07 13:30:28 surprise happy sad surprise surprise
+2025-02-07 13:30:28 surprise happy sad surprise surprise
+2025-02-07 13:30:28 surprise happy happy surprise surprise
+2025-02-07 13:30:28 surprise happy happy surprise
+2025-02-07 13:30:29 surprise happy happy surprise surprise
+2025-02-07 13:30:29 surprise happy happy surprise surprise
+2025-02-07 13:30:29 surprise happy happy surprise surprise
+2025-02-07 13:30:29 surprise happy happy surprise surprise
+2025-02-07 13:30:29 surprise happy happy surprise surprise
+2025-02-07 13:30:29 surprise happy happy surprise surprise
+2025-02-07 13:30:29 surprise happy happy surprise surprise
+2025-02-07 13:30:29 surprise happy happy surprise surprise
+2025-02-07 13:30:29 surprise happy happy surprise surprise
+2025-02-07 13:30:29 surprise happy happy surprise surprise
+2025-02-07 13:30:29 surprise happy happy surprise surprise
+2025-02-07 13:30:29 surprise happy happy surprise surprise
+2025-02-07 13:30:29 surprise happy happy surprise surprise
+2025-02-07 13:30:30 surprise happy happy surprise surprise
+2025-02-07 13:30:30 surprise happy happy surprise
+2025-02-07 13:30:30 surprise happy happy surprise
+2025-02-07 13:30:30 surprise happy happy surprise
+2025-02-07 13:30:30 surprise happy happy surprise
+2025-02-07 13:30:30 surprise happy happy surprise
+2025-02-07 13:30:30 surprise happy happy surprise
+2025-02-07 13:30:30 surprise happy happy surprise
+2025-02-07 13:30:30 surprise happy happy surprise
+2025-02-07 13:30:30 surprise happy happy surprise
+2025-02-07 13:30:30 surprise happy happy surprise
+2025-02-07 13:30:30 surprise happy happy surprise
+2025-02-07 13:30:30 surprise happy happy surprise
+2025-02-07 13:30:30 surprise happy happy surprise
+2025-02-07 13:30:31 surprise sad happy surprise surprise
+2025-02-07 13:30:31 surprise sad happy surprise surprise
+2025-02-07 13:30:31 surprise sad happy surprise surprise
+2025-02-07 13:30:31 surprise sad happy surprise surprise
+2025-02-07 13:30:31 surprise sad happy surprise surprise
+2025-02-07 13:30:31 surprise sad happy surprise surprise
+2025-02-07 13:30:31 surprise sad happy surprise surprise
+2025-02-07 13:30:31 surprise sad happy surprise surprise
+2025-02-07 13:30:31 surprise sad happy surprise surprise
+2025-02-07 13:30:31 surprise sad happy surprise
+2025-02-07 13:30:31 surprise sad happy surprise
+2025-02-07 13:30:31 surprise sad happy surprise
+2025-02-07 13:30:31 surprise sad happy surprise
+2025-02-07 13:30:32 surprise sad happy surprise
+2025-02-07 13:30:32 surprise sad
+2025-02-07 13:30:32 surprise sad
+2025-02-07 13:30:32 surprise sad
+2025-02-07 13:30:32 surprise sad happy
+2025-02-07 13:30:32 surprise sad happy
+2025-02-07 13:30:32 surprise sad happy
+2025-02-07 13:30:32 surprise sad happy
+2025-02-07 13:30:32 surprise sad happy
+2025-02-07 13:30:32 surprise sad happy
+2025-02-07 13:30:32 surprise sad happy
+2025-02-07 13:30:32 surprise sad happy
+2025-02-07 13:30:32 surprise sad happy
+2025-02-07 13:30:32 surprise sad happy
+2025-02-07 13:30:32 surprise sad happy
+2025-02-07 13:30:33 surprise sad happy
+2025-02-07 13:30:33 surprise sad happy surprise
+2025-02-07 13:30:33 surprise sad happy surprise
+2025-02-07 13:30:33 surprise sad neutral surprise
+2025-02-07 13:30:33 surprise sad neutral surprise
+2025-02-07 13:30:33 surprise sad neutral surprise
+2025-02-07 13:30:33 surprise sad neutral surprise
+2025-02-07 13:30:33 surprise sad neutral surprise surprise
+2025-02-07 13:30:33 surprise sad surprise surprise
+2025-02-07 13:30:33 surprise sad surprise surprise
+2025-02-07 13:30:33 surprise sad surprise surprise
+2025-02-07 13:30:33 surprise sad surprise surprise
+2025-02-07 13:30:33 surprise sad surprise surprise
+2025-02-07 13:30:33 surprise sad surprise surprise
+2025-02-07 13:30:34 surprise sad surprise surprise
+2025-02-07 13:30:34 surprise sad surprise surprise happy
+2025-02-07 13:30:34 surprise sad surprise surprise happy
+2025-02-07 13:30:34 surprise fear surprise surprise
+2025-02-07 13:30:34 surprise fear surprise surprise
+2025-02-07 13:30:34 surprise fear surprise surprise
+2025-02-07 13:30:34 surprise fear surprise surprise
+2025-02-07 13:30:34 surprise fear surprise surprise
+2025-02-07 13:30:34 surprise fear surprise surprise
+2025-02-07 13:30:34 surprise fear surprise surprise
+2025-02-07 13:30:34 surprise fear surprise surprise
+2025-02-07 13:30:34 surprise fear surprise
+2025-02-07 13:30:34 surprise fear surprise
+2025-02-07 13:30:35 surprise fear surprise surprise
+2025-02-07 13:30:35 surprise fear surprise surprise
+2025-02-07 13:30:35 surprise fear surprise surprise
+2025-02-07 13:30:35 surprise fear surprise surprise surprise
+2025-02-07 13:30:35 surprise fear surprise surprise surprise
+2025-02-07 13:30:35 surprise fear surprise surprise
+2025-02-07 13:30:35 surprise fear surprise surprise
+2025-02-07 13:30:35 surprise fear surprise surprise
+2025-02-07 13:30:35 fear fear surprise surprise surprise
+2025-02-07 13:30:35 fear surprise surprise surprise surprise
+2025-02-07 13:30:35 fear surprise surprise surprise surprise
+2025-02-07 13:30:35 fear surprise surprise surprise surprise
+2025-02-07 13:30:36 fear surprise surprise surprise surprise
+2025-02-07 13:30:36 fear surprise surprise sad surprise
+2025-02-07 13:30:36 fear surprise surprise sad surprise
+2025-02-07 13:30:36 fear surprise surprise sad surprise
+2025-02-07 13:30:36 fear surprise surprise sad surprise
+2025-02-07 13:30:36 fear surprise sad surprise
+2025-02-07 13:30:36 fear surprise sad surprise
+2025-02-07 13:30:36 fear surprise sad surprise
+2025-02-07 13:30:36 fear surprise sad surprise surprise
+2025-02-07 13:30:36 fear surprise sad surprise surprise
+2025-02-07 13:30:36 fear surprise sad surprise
+2025-02-07 13:30:36 fear surprise sad surprise
+2025-02-07 13:30:37 fear surprise sad surprise
+2025-02-07 13:30:37 fear surprise sad surprise
+2025-02-07 13:30:37 fear surprise sad surprise
+2025-02-07 13:30:37 fear surprise sad surprise
+2025-02-07 13:30:37 fear surprise sad surprise
+2025-02-07 13:30:37 fear surprise sad surprise
+2025-02-07 13:30:37 fear surprise sad surprise
+2025-02-07 13:30:37 fear surprise sad surprise
+2025-02-07 13:30:37 fear surprise sad surprise
+2025-02-07 13:30:37 fear surprise sad surprise
+2025-02-07 13:30:37 fear surprise sad surprise
+2025-02-07 13:30:37 fear surprise sad surprise
+2025-02-07 13:30:37 fear surprise sad surprise
+2025-02-07 13:30:37 fear surprise sad surprise
+2025-02-07 13:30:38 fear surprise sad surprise
+2025-02-07 13:30:38 fear surprise sad surprise
+2025-02-07 13:30:38 fear surprise sad surprise
+2025-02-07 13:30:38 fear surprise sad surprise
+2025-02-07 13:30:38 fear surprise sad surprise angry
+2025-02-07 13:30:38 fear happy sad surprise
+2025-02-07 13:30:38 fear happy sad surprise angry
+2025-02-07 13:30:38 fear happy sad surprise
+2025-02-07 13:30:38 fear happy sad surprise
+2025-02-07 13:30:38 fear happy sad surprise
+2025-02-07 13:30:38 sad happy sad surprise
+2025-02-07 13:30:38 sad happy sad surprise
+2025-02-07 13:30:38 sad happy sad
+2025-02-07 13:30:39 sad happy sad
+2025-02-07 13:30:39 sad happy sad
+2025-02-07 13:30:39 sad happy sad
+2025-02-07 13:30:39 sad happy sad
+2025-02-07 13:30:39 sad happy sad
+2025-02-07 13:30:39 sad happy sad
+2025-02-07 13:30:39 sad happy sad
+2025-02-07 13:30:39 sad happy sad
+2025-02-07 13:30:39 sad happy sad
+2025-02-07 13:30:39 sad happy sad
+2025-02-07 13:30:39 sad happy sad
+2025-02-07 13:30:39 sad happy sad fear
+2025-02-07 13:30:39 surprise happy fear
+2025-02-07 13:30:39 surprise happy fear
+2025-02-07 13:30:39 surprise happy fear
+2025-02-07 13:30:40 surprise happy fear surprise
+2025-02-07 13:30:40 surprise happy fear surprise
+2025-02-07 13:30:40 surprise surprise fear surprise
+2025-02-07 13:30:40 surprise surprise fear surprise
+2025-02-07 13:30:40 surprise surprise fear surprise
+2025-02-07 13:30:40 surprise surprise fear surprise
+2025-02-07 13:30:40 surprise surprise fear surprise
+2025-02-07 13:30:40 neutral surprise fear surprise
+2025-02-07 13:30:40 neutral surprise fear surprise surprise
+2025-02-07 13:30:40 neutral surprise fear surprise surprise
+2025-02-07 13:30:40 neutral surprise fear surprise surprise
+2025-02-07 13:30:40 neutral surprise fear surprise surprise
+2025-02-07 13:30:40 neutral surprise fear surprise surprise
+2025-02-07 13:30:41 neutral surprise fear surprise surprise
+2025-02-07 13:30:41 neutral surprise fear surprise surprise
+2025-02-07 13:30:41 neutral surprise fear surprise surprise
+2025-02-07 13:30:41 neutral surprise fear surprise surprise
+2025-02-07 13:30:41 neutral surprise fear surprise surprise
+2025-02-07 13:30:41 neutral surprise fear surprise surprise
+2025-02-07 13:30:41 neutral surprise fear surprise surprise
+2025-02-07 13:30:41 neutral surprise fear surprise
+2025-02-07 13:30:41 neutral surprise fear surprise
+2025-02-07 13:30:41 neutral surprise fear surprise
+2025-02-07 13:30:41 neutral surprise fear surprise
+2025-02-07 13:30:41 neutral surprise fear surprise
+2025-02-07 13:30:41 fear surprise fear surprise
+2025-02-07 13:30:41 fear surprise fear surprise
+2025-02-07 13:30:42 fear surprise fear surprise
+2025-02-07 13:30:42 fear surprise fear surprise
+2025-02-07 13:30:42 fear surprise fear surprise
+2025-02-07 13:30:42 fear surprise fear surprise
+2025-02-07 13:30:42 surprise fear surprise fear surprise
+2025-02-07 13:30:42 surprise fear surprise fear surprise
+2025-02-07 13:30:42 surprise fear surprise fear surprise
+2025-02-07 13:30:42 surprise fear surprise fear surprise
+2025-02-07 13:30:42 surprise fear surprise fear surprise
+2025-02-07 13:30:42 surprise fear surprise fear surprise
+2025-02-07 13:30:42 surprise fear surprise fear surprise
+2025-02-07 13:30:42 surprise fear surprise fear surprise
+2025-02-07 13:30:42 surprise fear surprise fear surprise
+2025-02-07 13:30:42 surprise fear happy fear
+2025-02-07 13:30:43 surprise fear happy fear
+2025-02-07 13:30:43 angry fear happy fear
+2025-02-07 13:30:43 angry fear happy fear
+2025-02-07 13:30:43 angry fear happy fear
+2025-02-07 13:30:43 angry fear happy fear
+2025-02-07 13:30:43 angry fear happy fear
+2025-02-07 13:30:43 angry fear happy fear
+2025-02-07 13:30:43 angry fear happy fear surprise
+2025-02-07 13:30:43 angry fear happy fear surprise surprise
+2025-02-07 13:30:43 angry fear happy fear surprise surprise
+2025-02-07 13:30:43 angry sad neutral fear surprise surprise
+2025-02-07 13:30:43 angry sad neutral fear surprise
+2025-02-07 13:30:43 angry sad neutral fear surprise
+2025-02-07 13:30:44 angry sad neutral fear surprise
+2025-02-07 13:30:44 neutral sad neutral fear surprise
+2025-02-07 13:30:44 neutral sad neutral fear surprise
+2025-02-07 13:30:44 neutral sad neutral surprise
+2025-02-07 13:30:44 neutral sad neutral surprise
+2025-02-07 13:30:44 neutral sad neutral surprise
+2025-02-07 13:30:44 neutral sad neutral surprise
+2025-02-07 13:30:44 neutral sad neutral surprise
+2025-02-07 13:30:44 neutral sad neutral surprise
+2025-02-07 13:30:44 neutral sad neutral surprise fear
+2025-02-07 13:30:44 neutral sad neutral surprise fear
+2025-02-07 13:30:44 neutral sad happy surprise fear
+2025-02-07 13:30:44 neutral sad happy surprise fear
+2025-02-07 13:30:44 neutral sad happy surprise fear
+2025-02-07 13:30:45 neutral sad happy surprise fear
+2025-02-07 13:30:45 sad sad happy surprise fear
+2025-02-07 13:30:45 sad sad happy surprise fear
+2025-02-07 13:30:45 sad sad happy surprise fear
+2025-02-07 13:30:45 sad sad happy surprise fear
+2025-02-07 13:30:45 sad sad happy surprise fear
+2025-02-07 13:30:45 sad sad happy fear
+2025-02-07 13:30:45 sad sad happy fear surprise
+2025-02-07 13:30:45 sad sad happy fear surprise
+2025-02-07 13:30:45 sad sad sad fear surprise surprise
+2025-02-07 13:30:45 sad sad fear surprise surprise
+2025-02-07 13:30:45 sad sad sad fear surprise surprise
+2025-02-07 13:30:45 surprise sad sad fear surprise surprise
+2025-02-07 13:30:46 surprise sad sad fear surprise surprise
+2025-02-07 13:30:46 surprise sad sad fear surprise surprise
+2025-02-07 13:30:46 surprise sad neutral fear surprise surprise
+2025-02-07 13:30:46 surprise sad happy fear surprise surprise
+2025-02-07 13:30:46 surprise sad happy fear fear surprise
+2025-02-07 13:30:46 surprise sad happy fear fear surprise
+2025-02-07 13:30:46 surprise sad happy fear fear surprise
+2025-02-07 13:30:46 surprise sad neutral fear fear surprise
+2025-02-07 13:30:46 surprise sad happy fear fear surprise
+2025-02-07 13:30:46 surprise sad happy fear fear surprise
+2025-02-07 13:30:46 surprise sad happy fear fear surprise
+2025-02-07 13:30:46 surprise sad neutral fear fear surprise
+2025-02-07 13:30:47 surprise sad neutral fear fear neutral
+2025-02-07 13:30:47 surprise sad neutral fear fear neutral
+2025-02-07 13:30:47 surprise sad neutral fear fear neutral
+2025-02-07 13:30:47 surprise sad neutral fear fear neutral
+2025-02-07 13:30:47 surprise sad neutral fear neutral
+2025-02-07 13:30:47 surprise sad neutral fear neutral
+2025-02-07 13:30:47 fear sad neutral fear neutral
+2025-02-07 13:30:47 fear sad neutral fear neutral
+2025-02-07 13:30:47 fear sad neutral fear neutral
+2025-02-07 13:30:47 fear sad neutral fear neutral
+2025-02-07 13:30:47 fear sad neutral fear neutral fear
+2025-02-07 13:30:47 fear sad neutral fear neutral fear
+2025-02-07 13:30:47 fear sad neutral fear neutral fear
+2025-02-07 13:30:48 fear sad neutral fear neutral fear
+2025-02-07 13:30:48 fear sad neutral fear neutral fear
+2025-02-07 13:30:48 fear sad neutral fear neutral fear
+2025-02-07 13:30:48 fear sad neutral fear neutral fear
+2025-02-07 13:30:48 fear happy neutral fear neutral surprise
+2025-02-07 13:30:48 fear happy neutral fear neutral surprise
+2025-02-07 13:30:48 fear happy neutral fear neutral surprise
+2025-02-07 13:30:48 surprise happy neutral fear surprise surprise
+2025-02-07 13:30:48 surprise happy neutral fear surprise surprise
+2025-02-07 13:30:48 surprise happy neutral fear surprise surprise
+2025-02-07 13:30:48 surprise happy neutral fear surprise surprise
+2025-02-07 13:30:48 surprise happy neutral fear surprise surprise
+2025-02-07 13:30:48 surprise happy neutral fear surprise surprise
+2025-02-07 13:30:49 surprise happy neutral fear surprise surprise
+2025-02-07 13:30:49 surprise happy neutral fear surprise surprise
+2025-02-07 13:30:49 surprise happy neutral fear surprise neutral
+2025-02-07 13:30:49 surprise neutral neutral fear surprise neutral
+2025-02-07 13:30:49 surprise neutral surprise fear surprise neutral
+2025-02-07 13:30:49 surprise neutral surprise fear surprise neutral
+2025-02-07 13:30:49 surprise neutral surprise fear surprise neutral
+2025-02-07 13:30:49 surprise neutral surprise fear surprise neutral
+2025-02-07 13:30:49 surprise neutral surprise fear surprise neutral
+2025-02-07 13:30:49 surprise neutral surprise fear surprise neutral
+2025-02-07 13:30:49 surprise neutral surprise fear surprise sad
+2025-02-07 13:30:49 sad neutral surprise fear surprise neutral
+2025-02-07 13:30:49 sad neutral surprise fear surprise neutral
+2025-02-07 13:30:50 sad neutral surprise surprise neutral
+2025-02-07 13:30:50 sad neutral surprise surprise neutral
+2025-02-07 13:30:50 sad neutral surprise surprise neutral
+2025-02-07 13:30:50 sad neutral surprise surprise neutral
+2025-02-07 13:30:50 sad neutral surprise surprise neutral
+2025-02-07 13:30:50 sad neutral surprise surprise neutral
+2025-02-07 13:30:50 sad neutral surprise surprise sad
+2025-02-07 13:30:50 sad neutral surprise surprise sad
+2025-02-07 13:30:50 sad neutral surprise surprise sad
+2025-02-07 13:30:50 sad neutral surprise surprise sad
+2025-02-07 13:30:50 sad neutral surprise surprise sad
+2025-02-07 13:30:51 sad neutral surprise surprise sad
+2025-02-07 13:30:51 sad neutral surprise surprise sad
+2025-02-07 13:30:51 sad neutral surprise surprise sad
+2025-02-07 13:30:51 sad neutral surprise surprise sad
+2025-02-07 13:30:51 sad sad surprise surprise sad
+2025-02-07 13:30:51 sad sad surprise surprise sad
+2025-02-07 13:30:51 sad sad surprise surprise sad
+2025-02-07 13:30:51 sad sad surprise surprise sad
+2025-02-07 13:30:51 sad sad surprise surprise
+2025-02-07 13:30:51 sad sad surprise surprise
+2025-02-07 13:30:51 sad sad surprise surprise
+2025-02-07 13:30:51 sad sad surprise surprise
+2025-02-07 13:30:51 sad sad surprise surprise
+2025-02-07 13:30:52 sad sad surprise surprise
+2025-02-07 13:30:52 sad sad neutral surprise
+2025-02-07 13:30:52 sad sad neutral surprise
+2025-02-07 13:30:52 sad sad neutral surprise
+2025-02-07 13:30:52 sad sad neutral surprise
+2025-02-07 13:30:52 sad sad neutral surprise
+2025-02-07 13:30:52 sad sad neutral surprise
+2025-02-07 13:30:52 surprise sad neutral
+2025-02-07 13:30:52 surprise sad neutral
+2025-02-07 13:30:52 surprise sad neutral
+2025-02-07 13:30:52 surprise sad neutral fear
+2025-02-07 13:30:52 surprise surprise neutral fear
+2025-02-07 13:30:52 surprise surprise neutral sad
+2025-02-07 13:30:53 surprise surprise neutral sad
+2025-02-07 13:30:53 surprise surprise neutral sad
+2025-02-07 13:30:53 surprise surprise neutral sad
+2025-02-07 13:30:53 surprise surprise neutral sad
+2025-02-07 13:30:53 surprise surprise neutral sad
+2025-02-07 13:30:53 surprise surprise neutral sad
+2025-02-07 13:30:53 surprise surprise neutral sad
+2025-02-07 13:30:53 surprise surprise neutral sad
+2025-02-07 13:30:53 sad sad neutral sad
+2025-02-07 13:30:53 sad sad neutral
+2025-02-07 13:30:53 sad sad neutral neutral
+2025-02-07 13:30:53 surprise sad neutral neutral surprise
+2025-02-07 13:30:53 surprise sad neutral sad surprise
+2025-02-07 13:30:54 surprise sad neutral neutral surprise
+2025-02-07 13:30:54 surprise sad neutral sad surprise
+2025-02-07 13:30:54 surprise sad happy sad surprise
+2025-02-07 13:30:54 sad sad happy sad surprise
+2025-02-07 13:30:54 sad sad happy sad surprise
+2025-02-07 13:30:54 sad sad happy sad happy
+2025-02-07 13:30:54 sad sad happy sad happy
+2025-02-07 13:30:54 sad sad happy sad happy
+2025-02-07 13:30:54 sad sad happy neutral happy
+2025-02-07 13:30:54 sad sad happy neutral happy
+2025-02-07 13:30:54 sad sad happy neutral happy
+2025-02-07 13:30:54 sad sad happy happy
+2025-02-07 13:30:54 sad sad happy happy
+2025-02-07 13:30:55 sad sad happy happy
+2025-02-07 13:30:55 sad sad happy happy
+2025-02-07 13:30:55 sad sad happy
+2025-02-07 13:30:55 sad sad happy
+2025-02-07 13:30:55 sad sad happy
+2025-02-07 13:30:55 sad sad happy
+2025-02-07 13:30:55 sad sad happy
+2025-02-07 13:30:55 sad sad happy
+2025-02-07 13:30:55 sad sad happy
+2025-02-07 13:30:55 sad sad happy
+2025-02-07 13:30:55 sad sad happy
+2025-02-07 13:30:55 sad sad happy
+2025-02-07 13:30:55 sad sad happy
+2025-02-07 13:30:55 surprise sad happy
+2025-02-07 13:30:56 surprise sad happy
+2025-02-07 13:30:56 surprise surprise happy
+2025-02-07 13:30:56 surprise surprise happy
+2025-02-07 13:30:56 surprise surprise happy
+2025-02-07 13:30:56 surprise surprise happy
+2025-02-07 13:30:56 surprise surprise happy
+2025-02-07 13:30:56 surprise surprise happy
+2025-02-07 13:30:56 surprise surprise happy
+2025-02-07 13:30:56 surprise surprise happy
+2025-02-07 13:30:56 surprise surprise happy
+2025-02-07 13:30:56 surprise surprise happy surprise
+2025-02-07 13:30:56 surprise angry happy surprise
+2025-02-07 13:30:56 surprise angry happy surprise
+2025-02-07 13:30:56 surprise angry happy surprise
+2025-02-07 13:30:57 surprise angry happy surprise
+2025-02-07 13:30:57 surprise happy surprise
+2025-02-07 13:30:57 surprise happy surprise
+2025-02-07 13:30:57 surprise happy surprise
+2025-02-07 13:30:57 surprise happy surprise
+2025-02-07 13:30:57 surprise happy surprise
+2025-02-07 13:30:57 surprise happy
+2025-02-07 13:30:57 surprise sad
+2025-02-07 13:30:57 surprise sad
+2025-02-07 13:30:57 surprise sad
+2025-02-07 13:30:57 surprise sad
+2025-02-07 13:30:57 surprise sad
+2025-02-07 13:30:57 surprise
+2025-02-07 13:30:57 surprise
+2025-02-07 13:30:58 surprise
+2025-02-07 13:30:58 surprise sad
+2025-02-07 13:30:58 surprise sad
+2025-02-07 13:30:58 surprise sad
+2025-02-07 13:30:58 sad sad
+2025-02-07 13:30:58 sad sad
+2025-02-07 13:30:58 sad sad
+2025-02-07 13:30:58 sad sad sad
+2025-02-07 13:30:58 sad sad sad
+2025-02-07 13:30:58 sad sad sad
+2025-02-07 13:30:58 sad sad sad
+2025-02-07 13:30:58 sad sad sad
+2025-02-07 13:30:58 sad sad
+2025-02-07 13:30:58 sad sad angry
+2025-02-07 13:30:59 sad sad
+2025-02-07 13:30:59 sad sad
+2025-02-07 13:30:59 sad sad
+2025-02-07 13:30:59 sad sad
+2025-02-07 13:30:59 sad sad angry
+2025-02-07 13:30:59 sad sad happy angry
+2025-02-07 13:30:59 sad sad happy
+2025-02-07 13:30:59 sad sad angry sad
+2025-02-07 13:30:59 sad sad angry sad
+2025-02-07 13:30:59 sad sad happy sad
+2025-02-07 13:30:59 sad sad happy sad
+2025-02-07 13:30:59 sad neutral surprise sad
+2025-02-07 13:30:59 sad sad sad
+2025-02-07 13:30:59 sad sad sad
+2025-02-07 13:31:00 sad neutral sad
+2025-02-07 13:31:00 sad neutral sad
+2025-02-07 13:31:00 Calling CoUninitialize()
+2025-02-07 13:31:00 CoUninitialize() done.
+2025-02-07 14:04:11 STREAM b'IHDR' 16 13
+2025-02-07 14:04:11 STREAM b'IDAT' 41 32768
+2025-02-12 14:13:53 STREAM b'IHDR' 16 13
+2025-02-12 14:13:53 STREAM b'IDAT' 41 32768
+2025-02-12 14:14:17 Calling CoUninitialize()
+2025-02-12 14:14:17 CoUninitialize() done.
+2025-02-12 14:14:58 STREAM b'IHDR' 16 13
+2025-02-12 14:14:58 STREAM b'IDAT' 41 32768
+2025-02-12 14:15:06 
+2025-02-12 14:15:08 
+2025-02-12 14:15:08 happy neutral
+2025-02-12 14:15:08 neutral
+2025-02-12 14:15:08 sad surprise
+2025-02-12 14:15:08 sad surprise
+2025-02-12 14:15:08 sad surprise
+2025-02-12 14:15:08 sad surprise
+2025-02-12 14:15:09 sad surprise
+2025-02-12 14:15:09 sad surprise
+2025-02-12 14:15:09 sad surprise
+2025-02-12 14:15:09 sad surprise
+2025-02-12 14:15:09 sad surprise
+2025-02-12 14:15:09 sad surprise
+2025-02-12 14:15:09 sad surprise
+2025-02-12 14:15:09 sad surprise
+2025-02-12 14:15:09 sad surprise
+2025-02-12 14:15:09 sad surprise
+2025-02-12 14:15:09 sad surprise
+2025-02-12 14:15:09 sad surprise
+2025-02-12 14:15:09 sad surprise
+2025-02-12 14:15:09 sad surprise
+2025-02-12 14:15:09 sad surprise
+2025-02-12 14:15:09 sad surprise
+2025-02-12 14:15:10 sad surprise
+2025-02-12 14:15:10 sad surprise
+2025-02-12 14:15:10 sad surprise
+2025-02-12 14:15:10 sad surprise
+2025-02-12 14:15:10 sad surprise
+2025-02-12 14:15:10 sad surprise
+2025-02-12 14:15:10 sad surprise
+2025-02-12 14:15:10 sad surprise
+2025-02-12 14:15:10 sad surprise
+2025-02-12 14:15:10 sad surprise
+2025-02-12 14:15:10 sad surprise
+2025-02-12 14:15:10 sad surprise
+2025-02-12 14:15:10 sad surprise
+2025-02-12 14:15:10 sad surprise
+2025-02-12 14:15:10 sad surprise
+2025-02-12 14:15:10 sad surprise
+2025-02-12 14:15:11 sad surprise
+2025-02-12 14:15:11 sad surprise
+2025-02-12 14:15:11 sad surprise
+2025-02-12 14:15:11 sad surprise
+2025-02-12 14:15:11 sad surprise
+2025-02-12 14:15:11 sad surprise
+2025-02-12 14:15:11 sad surprise
+2025-02-12 14:15:11 sad surprise
+2025-02-12 14:15:11 sad surprise
+2025-02-12 14:15:11 sad surprise
+2025-02-12 14:15:11 sad surprise
+2025-02-12 14:15:11 sad surprise
+2025-02-12 14:15:11 sad surprise
+2025-02-12 14:15:11 sad surprise
+2025-02-12 14:15:11 sad surprise
+2025-02-12 14:15:11 sad surprise
+2025-02-12 14:15:11 sad surprise
+2025-02-12 14:15:12 sad surprise
+2025-02-12 14:15:12 sad surprise
+2025-02-12 14:15:12 sad surprise
+2025-02-12 14:15:12 sad surprise
+2025-02-12 14:15:12 sad surprise
+2025-02-12 14:15:12 sad surprise
+2025-02-12 14:15:12 sad surprise
+2025-02-12 14:15:12 sad surprise
+2025-02-12 14:15:12 sad surprise
+2025-02-12 14:15:12 sad surprise
+2025-02-12 14:15:12 sad surprise
+2025-02-12 14:15:12 sad surprise
+2025-02-12 14:15:12 sad surprise
+2025-02-12 14:15:12 sad surprise
+2025-02-12 14:15:13 sad surprise
+2025-02-12 14:15:13 sad surprise
+2025-02-12 14:15:13 sad surprise
+2025-02-12 14:15:13 Calling CoUninitialize()
+2025-02-12 14:15:13 CoUninitialize() done.
+2025-02-12 14:17:06 STREAM b'IHDR' 16 13
+2025-02-12 14:17:06 STREAM b'IDAT' 41 32768
+2025-02-12 14:17:09 
+2025-02-12 14:17:10 neutral
+2025-02-12 14:17:10 neutral
+2025-02-12 14:17:10 neutral
+2025-02-12 14:17:10 neutral
+2025-02-12 14:17:10 neutral
+2025-02-12 14:17:10 neutral
+2025-02-12 14:17:10 neutral
+2025-02-12 14:17:10 neutral
+2025-02-12 14:17:10 neutral
+2025-02-12 14:17:10 neutral
+2025-02-12 14:17:11 neutral
+2025-02-12 14:17:11 neutral
+2025-02-12 14:17:11 neutral
+2025-02-12 14:17:11 neutral
+2025-02-12 14:17:11 neutral
+2025-02-12 14:17:11 neutral
+2025-02-12 14:17:11 neutral
+2025-02-12 14:17:11 neutral
+2025-02-12 14:17:11 neutral
+2025-02-12 14:17:11 neutral
+2025-02-12 14:17:11 neutral
+2025-02-12 14:17:11 neutral
+2025-02-12 14:17:11 neutral
+2025-02-12 14:17:11 neutral
+2025-02-12 14:17:11 neutral
+2025-02-12 14:17:11 neutral
+2025-02-12 14:17:12 neutral
+2025-02-12 14:17:12 Calling CoUninitialize()
+2025-02-12 14:17:12 CoUninitialize() done.
+2025-02-12 14:25:25 STREAM b'IHDR' 16 13
+2025-02-12 14:25:25 STREAM b'IDAT' 41 32768
+2025-02-12 14:25:35 
+2025-02-12 14:25:35 neutral
+2025-02-12 14:25:36 neutral
+2025-02-12 14:25:36 neutral
+2025-02-12 14:25:36 neutral
+2025-02-12 14:25:36 sad
+2025-02-12 14:25:36 sad
+2025-02-12 14:25:36 sad
+2025-02-12 14:25:36 sad
+2025-02-12 14:25:36 sad
+2025-02-12 14:25:36 sad
+2025-02-12 14:25:36 sad
+2025-02-12 14:25:36 sad
+2025-02-12 14:25:36 sad
+2025-02-12 14:25:36 sad
+2025-02-12 14:25:36 sad
+2025-02-12 14:25:36 sad
+2025-02-12 14:25:37 sad
+2025-02-12 14:25:37 sad
+2025-02-12 14:25:37 sad
+2025-02-12 14:25:37 sad
+2025-02-12 14:25:37 sad
+2025-02-12 14:25:37 sad
+2025-02-12 14:25:37 sad
+2025-02-12 14:25:37 sad
+2025-02-12 14:25:37 sad
+2025-02-12 14:25:37 sad
+2025-02-12 14:25:37 sad
+2025-02-12 14:25:37 sad
+2025-02-12 14:25:37 sad
+2025-02-12 14:25:37 sad
+2025-02-12 14:25:37 sad
+2025-02-12 14:25:37 sad
+2025-02-12 14:25:38 sad
+2025-02-12 14:25:38 Calling CoUninitialize()
+2025-02-12 14:25:38 CoUninitialize() done.
