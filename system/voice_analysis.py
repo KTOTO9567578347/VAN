@@ -8,6 +8,7 @@ from tkinter import ttk
 import cv2
 from pygrabber.dshow_graph import FilterGraph
 from sys import exit
+#from voice_classifier import VoiceClassifier
 vid_save_path = "."
 
 import pyaudio
@@ -26,16 +27,17 @@ class audio_processor:
 		self.is_on_air_now = False
 		self.FORMAT = pyaudio.paFloat32
 		self.CHANNELS = 1
-		self.RATE = 44100
+		self.RATE = 16000
 		self.CHUNK = 1024
 		self.audio_frames_buffer = []
 		self.is_recording_now = False
 		self.pa = pyaudio.PyAudio()
+		#self.classifier = VoiceClassifier()
 
 		self.in_stream = self.pa.open(format=pyaudio.paFloat32,
 			start=False,
 	        channels=1,
-	        rate=44100,
+	        rate=self.RATE,
 	        output=False,
 	        input=True,
 	        stream_callback=self.callback,
@@ -52,12 +54,12 @@ class audio_processor:
 	def callback(self, in_data, frame_count, time_info, flag):
 		audio_data = np.fromstring(in_data, dtype=np.float32)
 		self.audio_frames_buffer.append(audio_data)
-
 		#######
 		# -- обработка звука
 		#######
 		
-		self.app.refresh_voice_class(audio_data[0])
+		voice_class = 1 #self.classifier.process_audio_frames(self.audio_frames_buffer, self.RATE)
+		self.app.refresh_voice_class(voice_class)
 		return None, pyaudio.paContinue
 
 	def start_recording(self):
