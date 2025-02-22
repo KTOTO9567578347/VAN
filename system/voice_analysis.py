@@ -1,38 +1,45 @@
 import queue
 from PIL import Image, ImageTk 
 import datetime
-from ultralytics import YOLO
 import tkinter as tk
 from statistics import mode
 from tkinter import ttk
 import cv2
 from pygrabber.dshow_graph import FilterGraph
 from sys import exit
-#from voice_classifier import VoiceClassifier
+from voice_classifier import VoiceClassifier
+import numpy as np
+
 vid_save_path = "."
 
 import pyaudio
-import numpy as np
+import librosa
+import pickle
 import time
+import torch
+import torch.nn as nn
+
 
 import threading
 import logging
 import asyncio
 
+
+
 class audio_processor:
 	def __init__(self, output_app):
-		#параметры захвата звука. 
-		self.audio_play_thread = threading.Thread(target = self.play_sound)
+		self.classifier = VoiceClassifier()
 		self.app = output_app
 		self.is_on_air_now = False
 		self.FORMAT = pyaudio.paFloat32
 		self.CHANNELS = 1
-		self.RATE = 16000
+		self.RATE = 22050
 		self.CHUNK = 1024
-		self.audio_frames_buffer = []
+		self.duration = 2.5
+		self.audio_frames_buffer = np.array([], dtype=np.float32)
+		self.required_samples = int(self.RATE * self.duration)
 		self.is_recording_now = False
 		self.pa = pyaudio.PyAudio()
-		#self.classifier = VoiceClassifier()
 
 		self.in_stream = self.pa.open(format=pyaudio.paFloat32,
 			start=False,
@@ -52,16 +59,32 @@ class audio_processor:
 		            frames_per_buffer=self.CHUNK)
 		
 	def callback(self, in_data, frame_count, time_info, flag):
-		audio_data = np.fromstring(in_data, dtype=np.float32)
-		self.audio_frames_buffer.append(audio_data)
-		#######
-		# -- обработка звука
-		#######
-		
-		voice_class = 1 #self.classifier.process_audio_frames(self.audio_frames_buffer, self.RATE)
-		self.app.refresh_voice_class(voice_class)
+		new_data = np.frombuffer(in_data, dtype=np.float32)
+			
+		self.audio_frames_buffer = np.append(self.audio_frames_buffer, new_data)
+			
+		if len(self.audio_frames_buffer) >= self.required_samples:
+			process_data = self.audio_frames_buffer
+			#self.play_sound()   
+			self.clear_buffer()
+			self.process_audio(process_data)
+        
 		return None, pyaudio.paContinue
 
+	def process_audio(self, audio_data):
+		try:
+			rms = np.mean(librosa.feature.rms(y=audio_data))
+			if rms < 0.003:
+				voice_class = "тишина"
+			else:
+				voice_class = self.classifier.process_audio_frames(audio_data)
+				
+													   
+
+			self.app.refresh_voice_class(voice_class)
+		except Exception as e:
+			print(f"Ошибка обработки аудио: {str(e)}")
+		###
 	def start_recording(self):
 		print("*recording")
 		self.in_stream.start_stream()
@@ -81,7 +104,7 @@ class audio_processor:
 		self.out_stream.stop_stream()
 	
 	def clear_buffer(self):
-		self.audio_frames_buffer.clear()
+		self.audio_frames_buffer = np.array([], dtype=np.float32)
 	
 	def audio_relay(self):
 		print("RELAY ACTIVE")

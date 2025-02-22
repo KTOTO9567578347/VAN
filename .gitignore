@@ -6,3 +6,4 @@ pyvenv/
 pycache/
 /pyvenv.cfg
 /syswars.txt
+system/__pycache__/
