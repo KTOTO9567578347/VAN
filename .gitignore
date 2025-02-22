@@ -1,0 +1,8 @@
+Include/
+Lib/
+Scripts/
+share/
+pyvenv/
+pycache/
+/pyvenv.cfg
+/syswars.txt
