@@ -10,6 +10,9 @@ from pygrabber.dshow_graph import FilterGraph
 from sys import exit
 vid_save_path = "."
 
+from warnings import filterwarnings
+filterwarnings("ignore")
+
 import pyaudio
 import numpy as np
 import time
@@ -80,7 +83,10 @@ class pose_model_sk:
 		dat = []
 		if detect != None:
 			for x, y, w, h, kp, track_num in detect:
-				clas = self.class_model.predict(kp.T.reshape(1,-1)).item()
+				kp1=kp.T.copy()
+				kp1[0]=kp1[0]/640
+				kp1[1]=kp1[1]/480
+				clas = self.class_model.predict(kp1.reshape(1,-1)).item()
 				dat.append((x, y, w, h, clas, kp, track_num))
 		return dat
 	
@@ -158,7 +164,7 @@ class CV:
 		self.app = output_app
 		
 		self.face_classnames = {0: 'ярость', 1: 'страх', 2: 'радость', 3: 'спокоен', 4: 'грусть', 5: 'удивлен', '-': '-'}
-		self.pose_classnames =  {0: 'спокоен', 1: 'радость', 2: 'удивлён', 3: 'ярость', 4: 'грусть', 5: 'страх', 6: 'усталость', '-':'-'}
+		self.pose_classnames =  {0: 'спокоен', 1: 'ярость', 2: 'радость', 3: 'усталость', 4: 'удивление', 5: 'грусть', 6: 'страх', '-':'-'}
 
 		self.face_stat_buffer = Statistic_Buffer()
 		self.pose_stat_buffer = Statistic_Buffer()
