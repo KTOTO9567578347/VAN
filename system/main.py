@@ -24,6 +24,7 @@ logging.basicConfig(filename="logs.txt",
                     filemode='a',
                     format='%(asctime)s %(message)s',
                     datefmt='%Y-%m-%d %H:%M:%S',
-                    level=logging.DEBUG)
+                    level=logging.DEBUG,
+                    encoding='utf-8')
 
 start_win()

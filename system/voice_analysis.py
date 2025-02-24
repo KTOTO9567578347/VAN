@@ -80,6 +80,7 @@ class audio_processor:
 				voice_class = self.classifier.process_audio_frames(audio_data)
 				
 													   
+			self.app.logged_voice_emotion.set(voice_class)
 
 			self.app.refresh_voice_class(voice_class)
 		except Exception as e:

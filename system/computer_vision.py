@@ -215,7 +215,14 @@ class CV:
 
 			self.app.table_data = table_values
 
-			#self.app.detected_emotion.set(str(' '.join(predicted_classes)))
+			logger_data_pose = dict()
+			logger_data_face = dict()
+			for track_num, face_predicted, pose_predicted in table_values:
+				logger_data_face[track_num] = face_predicted
+				logger_data_pose[track_num] = pose_predicted
+
+			self.app.logged_pose_emotion.set(str(logger_data_pose))
+			self.app.logged_face_emotion.set(str(logger_data_face))
 		
 		if (self.app.is_on_air.get()):
 			self.out.write(output_frame)

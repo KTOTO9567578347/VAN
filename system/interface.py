@@ -27,7 +27,11 @@ class main_win:
 		self.app = tk.Tk()
 		self.audio_processor = audio_processor(output_app=self)
 		#self.app.iconbitmap(default='assets/favicon.ico')
-		self.detected_emotion = tk.StringVar()
+
+		self.logged_face_emotion = tk.StringVar()
+		self.logged_pose_emotion = tk.StringVar()
+		self.logged_voice_emotions = tk.StringVar()
+
 		self.app.bind('<Escape>', lambda e: self.app.quit()) 
 		self.image_widget = tk.Label(self.app) 
 		self.image_widget.pack() 
@@ -81,7 +85,7 @@ class main_win:
 		self.voice_class_text.config(text=f"Текущее настроение голоса: {class_voice}")
 	
 	def logging_thread_function(self):
-		logging.info(self.detected_emotion.get())
+		logging.info(f"Faces: {self.logged_face_emotion.get()}; Poses: {self.logged_pose_emotion.get()}; Voices: {self.logged_voice_emotions.get()}")
 		self.app.after(30, self.logging_thread_function)
 	
 	def go_to_start(self):
