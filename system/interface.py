@@ -30,7 +30,7 @@ class main_win:
 
 		self.logged_face_emotion = tk.StringVar()
 		self.logged_pose_emotion = tk.StringVar()
-		self.logged_voice_emotions = tk.StringVar()
+		self.logged_voice_emotion = tk.StringVar()
 
 		self.app.bind('<Escape>', lambda e: self.app.quit()) 
 		self.image_widget = tk.Label(self.app) 
@@ -54,7 +54,7 @@ class main_win:
 		self.cam_recap_but_widget = ttk.Button(text = 'захват видео выбранной камеры', command= self.cv.recap_camera)
 		self.MainCanvas.create_window((650, 150), window = self.cam_recap_but_widget, anchor= tk.NW)
 
-		self.cam_list_update_but_widget = ttk.Button(text = 'обновить список камер', command= self.cv.update_camera_list)
+		self.cam_list_update_but_widget = ttk.Button(text = 'обновить список камер', command= self.cv.update_camera_list())
 		self.MainCanvas.create_window((650, 200), window = self.cam_list_update_but_widget, anchor= tk.NW)
 
 		self.return_but = ttk.Button(text = 'Вернуться к стартовому окну', command=self.go_to_start)
@@ -85,7 +85,7 @@ class main_win:
 		self.voice_class_text.config(text=f"Текущее настроение голоса: {class_voice}")
 	
 	def logging_thread_function(self):
-		logging.info(f"Faces: {self.logged_face_emotion.get()}; Poses: {self.logged_pose_emotion.get()}; Voices: {self.logged_voice_emotions.get()}")
+		logging.info(f"Faces: {self.logged_face_emotion.get()}; Poses: {self.logged_pose_emotion.get()}; Voices: {self.logged_voice_emotion.get()}")
 		self.app.after(30, self.logging_thread_function)
 	
 	def go_to_start(self):

@@ -8,6 +8,9 @@ from tkinter import ttk
 import cv2
 from pygrabber.dshow_graph import FilterGraph
 from sys import exit
+
+from datetime import datetime as dt
+
 vid_save_path = "."
 
 from warnings import filterwarnings
@@ -179,7 +182,11 @@ class CV:
 		self.out = cv2.VideoWriter(vid_save_path + '/' + str(datetime.datetime.now())+'.avi', self.fourcc, self.video_write_FPS, (640, 480))
 	
 	def open_camera(self):
+		processing_start_time = dt.now()
 		ret, frame = self.vid.read()
+		if (not ret or type(frame) == None):
+			return
+		
 		output_frame = frame.copy()
 		if (not ret or type(frame) == None):
 			self.vid.release()
@@ -214,10 +221,11 @@ class CV:
 
 				cv2.putText(output_frame, f"Номер:{track_num} Лицо:{face_predicted} Тело:{pose_predicted}", (x, y-10), cv2.FONT_HERSHEY_COMPLEX, 0.5, (167, 255), 1)
 
-
-				
-				
 				table_values.append((track_num, face_predicted, pose_predicted))
+			
+			processing_end_time = dt.now()
+
+			cv2.putText(output_frame, f"FPS: {int(1.5 /(processing_end_time - processing_start_time).total_seconds())}", (3, 15), cv2.FONT_HERSHEY_COMPLEX, 0.7, (0, 255, 0), 2)
 
 			self.app.table_data = table_values
 

@@ -3,6 +3,8 @@ Lib/
 Scripts/
 share/
 pyvenv/
-pycache/
+*.pyc
 /pyvenv.cfg
 /syswars.txt
+*.avi
+system/logs.txt
