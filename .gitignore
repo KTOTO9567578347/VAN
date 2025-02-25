@@ -3,8 +3,17 @@ Lib/
 Scripts/
 share/
 pyvenv/
+input_videos/
+output_logs/
+output_videos/
+userlogins_hashed/
+*.db
 *.pyc
 /pyvenv.cfg
 /syswars.txt
 *.avi
+*.cpython39
+*.cpython-39.pyc
 system/logs.txt
+*cpython*
+

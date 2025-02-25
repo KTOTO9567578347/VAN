@@ -11,8 +11,6 @@ from sys import exit
 
 from datetime import datetime as dt
 
-vid_save_path = "."
-
 from warnings import filterwarnings
 filterwarnings("ignore")
 
@@ -179,7 +177,9 @@ class CV:
 		self.vid.set(cv2.CAP_PROP_FRAME_WIDTH, self.width)
 		self.vid.set(cv2.CAP_PROP_FRAME_HEIGHT, self.height)
 		self.frame = None
-		self.out = cv2.VideoWriter(vid_save_path + '/' + str(datetime.datetime.now())+'.avi', self.fourcc, self.video_write_FPS, (640, 480))
+
+		print("save path: " + "../output_videos/" + str(datetime.datetime.now())+'.avi')
+		self.out = cv2.VideoWriter("../output_videos/" + str(datetime.datetime.now())+'.avi', self.fourcc, self.video_write_FPS, (640, 480))
 	
 	def open_camera(self):
 		processing_start_time = dt.now()
@@ -249,7 +249,7 @@ class CV:
 		self.app.image_widget.after(5, self.open_camera)
 	
 	def get_vid_save_name(self):
-		return str(datetime.datetime.now()).split('.')[0].replace(' ', '_').replace(':', '_')+'.avi'
+		return "../output_videos/" + str(datetime.datetime.now()).split('.')[0].replace(' ', '_').replace(':', '_')+'.avi'
 
 	def get_available_cameras(self) :
 		devices = FilterGraph().get_input_devices()

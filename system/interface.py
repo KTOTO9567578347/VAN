@@ -6,6 +6,7 @@ import tkinter as tk
 from statistics import mode
 from tkinter import ttk
 import cv2
+from datetime import datetime as dt
 from pygrabber.dshow_graph import FilterGraph
 from sys import exit
 vid_save_path = "."
@@ -18,23 +19,31 @@ import threading
 import logging
 import asyncio
 
+from csv_logger import CSVInfoLogger
 from voice_analysis import audio_processor
 from computer_vision import CV
 
 class main_win:
+	def get_log_name(self):
+		return "log_" + str(dt.now()).replace(' ', '_').replace(':', '-').replace('.', "_")
+
 	def __init__(self):
 		self.cv = CV(self)
 		self.app = tk.Tk()
 		self.audio_processor = audio_processor(output_app=self)
 		#self.app.iconbitmap(default='assets/favicon.ico')
 
+		self.csv_logger = CSVInfoLogger("../output_logs/" + self.get_log_name() + ".csv")
+
 		self.logged_face_emotion = tk.StringVar()
 		self.logged_pose_emotion = tk.StringVar()
 		self.logged_voice_emotion = tk.StringVar()
 
+		self.DisplayCanvas = tk.Canvas(master = self.app, height=500, width=2000)
+		self.DisplayCanvas.pack(anchor=tk.CENTER, expand=True)
 		self.app.bind('<Escape>', lambda e: self.app.quit()) 
-		self.image_widget = tk.Label(self.app) 
-		self.image_widget.pack() 
+		self.image_widget = tk.Label(self.app, anchor=tk.NW)
+		self.DisplayCanvas.create_window((10, 10), window=self.image_widget, anchor=tk.NW)
 
 		self.MainCanvas = tk.Canvas(master = self.app, height=400, width=2000)
 		self.MainCanvas.pack(anchor=tk.CENTER, expand=True)
@@ -85,8 +94,8 @@ class main_win:
 		self.voice_class_text.config(text=f"Текущее настроение голоса: {class_voice}")
 	
 	def logging_thread_function(self):
-		logging.info(f"Faces: {self.logged_face_emotion.get()}; Poses: {self.logged_pose_emotion.get()}; Voices: {self.logged_voice_emotion.get()}")
-		self.app.after(30, self.logging_thread_function)
+		self.csv_logger.log_info(f"Faces: {self.logged_face_emotion.get()}; Poses: {self.logged_pose_emotion.get()}; Voices: {self.logged_voice_emotion.get()}")
+		self.app.after(1000, self.logging_thread_function)
 	
 	def go_to_start(self):
 		self.app.destroy()
