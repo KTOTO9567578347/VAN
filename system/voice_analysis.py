@@ -8,6 +8,7 @@ import cv2
 from pygrabber.dshow_graph import FilterGraph
 from sys import exit
 from voice_classifier import VoiceClassifier
+from computer_vision import CV
 import numpy as np
 
 vid_save_path = "."
@@ -76,13 +77,18 @@ class audio_processor:
 			rms = np.mean(librosa.feature.rms(y=audio_data))
 			if rms < 0.003:
 				voice_class = "тишина"
+				spectrogram_image = None
 			else:
 				voice_class = self.classifier.process_audio_frames(audio_data)
-				
-													   
+				spectrogram_image = self.app.spectrogram_generator.get_spectogram_image(audio_data, self.RATE)
+			
 			self.app.logged_voice_emotion.set(voice_class)
-
 			self.app.refresh_voice_class(voice_class)
+			
+			if spectrogram_image:
+				self.app.spectrogram_label.imgtk = spectrogram_image
+				self.app.spectrogram_label.configure(image=spectrogram_image)
+				
 		except Exception as e:
 			print(f"Ошибка обработки аудио: {str(e)}")
 		###
@@ -113,3 +119,19 @@ class audio_processor:
 			self.start_recording()
 		else:
 			self.stop_recording()
+
+	def get_microphones(self):
+		p = pyaudio.PyAudio()
+		microphones = []
+		for i in range(p.get_device_count()):
+			try:
+				device_info = p.get_device_info_by_index(i)
+				if device_info.get('maxInputChannels') > 0:
+					microphones.append(device_info.get('name'))
+			except OSError as e:
+				print(f"Error accessing device {i}: {e}")
+		self.app.audio_list_widget['value'] = microphones    
+	def on_microphone_select(self):
+		selected_mic = int(self.app.selected_audio.get().split()[0])        
+		print(f"Выбран микрофон: {selected_mic}")
+		self.aud = selected_mic

@@ -8,6 +8,8 @@ from tkinter import ttk
 import cv2
 from pygrabber.dshow_graph import FilterGraph
 from sys import exit
+from pyzbar import pyzbar
+from time import gmtime, strftime
 
 from datetime import datetime as dt
 
@@ -26,8 +28,35 @@ from ultralytics import YOLO
 from joblib import load
 import sklearn
 import numpy as np
+import pandas as pd
 
-
+class pass_data:
+    def __init__(self, output_app):
+        self.data = pd.DataFrame()
+        self.app = output_app.app
+    # Функция для сканирования штрих-кодов
+    def scan_barcodes(self, frame):
+        # Преобразуем изображение в оттенки серого для улучшения распознавания
+        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        
+        # Ищем штрих-коды на изображении
+        barcodes = pyzbar.decode(gray)
+        
+        # Обрабатываем найденные штрих-коды
+        for barcode in barcodes:
+            # Получаем данные и тип штрих-кода
+            barcode_data = barcode.data.decode("utf-8")
+            if 'РЖД' in barcode_data:
+                (x, y, w, h) = barcode.rect
+                cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
+                r, ind, fio, birthday = barcode_data.split(',')
+                time = strftime("%Y-%m-%d %H:%M:%S", gmtime())[:-3]
+                one_code = pd.DataFrame({"Дата и время": [time], "id": [ind], "ФИО": [fio], "Дата рождения": [birthday]})
+                self.data = pd.concat([self.data,one_code], ignore_index=True)
+                self.data = self.data.drop_duplicates()
+                self.app.logged_date = birthday
+                self.app.logged_name = fio
+        return frame
 
 class pose_model_y:
 	def __init__(self, model_name):
@@ -163,13 +192,14 @@ class CV:
 
 		self.audio_emotion_classification = '-'
 		self.app = output_app
+		self.pass_scan = pass_data(self)
 		
 		self.face_classnames = {0: 'ярость', 1: 'страх', 2: 'радость', 3: 'спокоен', 4: 'грусть', 5: 'удивлен', '-': '-'}
 		self.pose_classnames =  {0: 'спокоен', 1: 'ярость', 2: 'радость', 3: 'усталость', 4: 'удивление', 5: 'грусть', 6: 'страх', '-':'-'}
 
 		self.face_stat_buffer = Statistic_Buffer()
 		self.pose_stat_buffer = Statistic_Buffer()
-
+		self.is_video_on_air = True
 		self.vid = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 		self.fourcc = cv2.VideoWriter_fourcc(*'MP42')
 		self.video_write_FPS = 10.0
@@ -182,71 +212,74 @@ class CV:
 		self.out = cv2.VideoWriter("../output_videos/" + str(datetime.datetime.now())+'.avi', self.fourcc, self.video_write_FPS, (640, 480))
 	
 	def open_camera(self):
-		processing_start_time = dt.now()
-		ret, frame = self.vid.read()
-		if (not ret or type(frame) == None):
-			return
-		
-		output_frame = frame.copy()
-		if (not ret or type(frame) == None):
-			self.vid.release()
-			print("NOVIDEO")
-			frame = cv2.imread(r"./assets/nosignal.jpg")
-		else:
-			table_values = []
-
-			people_faces = self.face_detect_model.detectMultiScale(frame)
+		if self.is_video_on_air:
+			processing_start_time = dt.now()
+			ret, frame = self.vid.read()
+			if (not ret or type(frame) == None):
+				return
 			
-			for (x, y, w, h, cls_pose, kp, track_num) in self.pose_model.class_detect(frame):
-				cls_face = '-'
-				nose_point = kp[0]
-				for face in people_faces:
-					x_f, y_f, w_f, h_f, _ = face
-					
-					if x_f <= nose_point[0] <= x_f + w_f and y_f <= nose_point[1] <= y_f + h_f and (0 not in list(frame[x_f : x_f + w_f, y_f : y_f + h_f].shape)):
-						cls_face = self.face_classify_model.predict(frame[x_f : x_f + w_f, y_f : y_f + h_f])
-						cv2.rectangle(output_frame, (x_f, y_f), (x_f + w_f, y_f + h_f), (255, 255, 255), 1)
-						break
+			output_frame = frame.copy()
+			output_frame = self.pass_scan.scan_barcodes(output_frame)
+			if (not ret or type(frame) == None):
+				self.vid.release()
+				print("NOVIDEO")
+				frame = cv2.imread(r"./assets/nosignal.jpg")
+			else:
+				table_values = []
+
+				people_faces = self.face_detect_model.detectMultiScale(frame)
 				
-				cv2.rectangle(output_frame, (x, y), (x + w, y + h), (255, 255, 0), 2)
-				for point in kp:
-					cv2.circle(output_frame, (int(point[0]), int(point[1])), 3, (255, 167, 0))
+				for (x, y, w, h, cls_pose, kp, track_num) in self.pose_model.class_detect(frame):
+					cls_face = '-'
+					nose_point = kp[0]
+					for face in people_faces:
+						x_f, y_f, w_f, h_f, _ = face
+						
+						if x_f <= nose_point[0] <= x_f + w_f and y_f <= nose_point[1] <= y_f + h_f and (0 not in list(frame[x_f : x_f + w_f, y_f : y_f + h_f].shape)):
+							cls_face = self.face_classify_model.predict(frame[x_f : x_f + w_f, y_f : y_f + h_f])
+							cv2.rectangle(output_frame, (x_f, y_f), (x_f + w_f, y_f + h_f), (255, 255, 255), 1)
+							break
+					
+					cv2.rectangle(output_frame, (x, y), (x + w, y + h), (255, 255, 0), 2)
+					for point in kp:
+						cv2.circle(output_frame, (int(point[0]), int(point[1])), 3, (255, 167, 0))
 
 
-				self.face_stat_buffer.add_one_predict(track_num, cls_face)
-				self.pose_stat_buffer.add_one_predict(track_num, cls_pose)
+					self.face_stat_buffer.add_one_predict(track_num, cls_face)
+					self.pose_stat_buffer.add_one_predict(track_num, cls_pose)
 
-				face_predicted = self.face_classnames[self.face_stat_buffer.queue(track_num)]
-				pose_predicted = self.pose_classnames[self.pose_stat_buffer.queue(track_num)]
+					face_predicted = self.face_classnames[self.face_stat_buffer.queue(track_num)]
+					pose_predicted = self.pose_classnames[self.pose_stat_buffer.queue(track_num)]
 
-				cv2.putText(output_frame, f"Номер:{track_num} Лицо:{face_predicted} Тело:{pose_predicted}", (x, y-10), cv2.FONT_HERSHEY_COMPLEX, 0.5, (167, 255), 1)
+					cv2.putText(output_frame, f"Номер:{track_num} Лицо:{face_predicted} Тело:{pose_predicted}", (x, y-10), cv2.FONT_HERSHEY_COMPLEX, 0.5, (167, 255), 1)
 
-				table_values.append((track_num, face_predicted, pose_predicted))
+					table_values.append((track_num, face_predicted, pose_predicted))
+				
+				processing_end_time = dt.now()
+
+				cv2.putText(output_frame, f"FPS: {int(1.5 /(processing_end_time - processing_start_time).total_seconds())}", (3, 15), cv2.FONT_HERSHEY_COMPLEX, 0.7, (0, 255, 0), 2)
+
+				self.app.table_data = table_values
+
+				logger_data_pose = dict()
+				logger_data_face = dict()
+				for track_num, face_predicted, pose_predicted in table_values:
+					logger_data_face[track_num] = face_predicted
+					logger_data_pose[track_num] = pose_predicted
+
+				self.app.logged_pose_emotion.set(str(logger_data_pose))
+				self.app.logged_face_emotion.set(str(logger_data_face))
 			
-			processing_end_time = dt.now()
+			if (self.app.is_on_air.get()):
+				self.out.write(output_frame)
+			
+			opencv_image = cv2.cvtColor(output_frame, cv2.COLOR_BGR2RGBA)
+			captured_image = Image.fromarray(opencv_image)
+			photo_image = ImageTk.PhotoImage(image=captured_image)
+			self.app.image_widget.photo_image = photo_image
+			self.app.image_widget.configure(image=photo_image)
+			self.app.image_widget.after(5, self.open_camera)
 
-			cv2.putText(output_frame, f"FPS: {int(1.5 /(processing_end_time - processing_start_time).total_seconds())}", (3, 15), cv2.FONT_HERSHEY_COMPLEX, 0.7, (0, 255, 0), 2)
-
-			self.app.table_data = table_values
-
-			logger_data_pose = dict()
-			logger_data_face = dict()
-			for track_num, face_predicted, pose_predicted in table_values:
-				logger_data_face[track_num] = face_predicted
-				logger_data_pose[track_num] = pose_predicted
-
-			self.app.logged_pose_emotion.set(str(logger_data_pose))
-			self.app.logged_face_emotion.set(str(logger_data_face))
-		
-		if (self.app.is_on_air.get()):
-			self.out.write(output_frame)
-		
-		opencv_image = cv2.cvtColor(output_frame, cv2.COLOR_BGR2RGBA)
-		captured_image = Image.fromarray(opencv_image)
-		photo_image = ImageTk.PhotoImage(image=captured_image)
-		self.app.image_widget.photo_image = photo_image
-		self.app.image_widget.configure(image=photo_image)
-		self.app.image_widget.after(5, self.open_camera)
 	
 	def get_vid_save_name(self):
 		return "../output_videos/" + str(datetime.datetime.now()).split('.')[0].replace(' ', '_').replace(':', '_')+'.avi'

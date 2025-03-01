@@ -18,15 +18,15 @@ class CSVInfoLogger:
         handler = logging.FileHandler(self.filename, mode='a', encoding='utf-8')
         handler.setLevel(logging.INFO)
 
-        # Устанавливаем форматтер для времени
-        formatter = logging.Formatter("%(asctime)s")
+        # Устанавливаем форматтер для времени, уровня и сообщения
+        formatter = logging.Formatter("%(asctime)s;%(levelname)s;%(message)s")
         handler.setFormatter(formatter)
 
         # Добавляем заголовки в CSV-файл, если он пустой
         with open(self.filename, mode='r', newline='', encoding='utf-8') as file:
             if not file.read(1):  # Проверяем, пуст ли файл
                 with open(self.filename, mode='w', newline='', encoding='utf-8') as new_file:
-                    writer = csv.writer(new_file)
+                    writer = csv.writer(new_file, delimiter = ";")
                     writer.writerow(["Timestamp", "Level", "Message"])  # Заголовки столбцов
 
         return handler

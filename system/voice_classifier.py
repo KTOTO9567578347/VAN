@@ -3,6 +3,10 @@ import numpy as np
 import librosa
 import pickle
 from torch import nn
+import matplotlib.pyplot as plt
+import librosa.display
+import io
+from PIL import Image, ImageTk
 
 class audio_model(nn.Module):
     def __init__(self, input_features=1, num_classes=7):
@@ -96,3 +100,21 @@ class VoiceClassifier:
 
         except Exception as e:
             return f"Ошибка в модели: {str(e)}"
+        
+class getSpectogram:
+    def get_spectogram_image(self, audio_data, sr):
+        plt.close('all')
+        plt.figure(figsize=(3, 2), dpi=50)
+        plt.axis('off')
+        S = librosa.feature.melspectrogram(y=audio_data, sr=sr)
+        S_dB = librosa.power_to_db(S, ref=np.max)
+        librosa.display.specshow(S_dB, sr=sr, x_axis='time', y_axis='mel')
+        
+        buf = io.BytesIO()
+        plt.savefig(buf, format='png', bbox_inches='tight', pad_inches=0)
+        buf.seek(0)
+        img = Image.open(buf)
+        img = img.resize((300, 150))
+        imgtk = ImageTk.PhotoImage(img)
+        plt.close()
+        return imgtk
