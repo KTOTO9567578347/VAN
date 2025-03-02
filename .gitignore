@@ -16,4 +16,7 @@ userlogins_hashed/
 *.cpython-39.pyc
 system/logs.txt
 *cpython*
-
+bin/
+lib/
+include/
+lib64
