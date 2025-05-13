@@ -8,7 +8,7 @@ from tkinter import ttk
 import cv2
 from pygrabber.dshow_graph import FilterGraph
 from sys import exit
-from pyzbar import pyzbar
+#from pyzbar import pyzbar
 from time import gmtime, strftime
 
 from datetime import datetime as dt
@@ -219,7 +219,7 @@ class CV:
 				return
 			
 			output_frame = frame.copy()
-			output_frame = self.pass_scan.scan_barcodes(output_frame)
+			#output_frame = self.pass_scan.scan_barcodes(output_frame)
 			if (not ret or type(frame) == None):
 				self.vid.release()
 				print("NOVIDEO")

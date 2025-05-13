@@ -9,6 +9,7 @@ import cv2
 from datetime import datetime as dt
 from pygrabber.dshow_graph import FilterGraph
 from sys import exit
+from playsound import playsound
 vid_save_path = "."
 
 import pyaudio
@@ -304,6 +305,7 @@ class main_win:
 			face_emotion = faces.get(person_id, '-')
 			pose_emotion = poses.get(person_id, '-')
 			status = "ОПАСЕН" if person_id in self.dangerous_people_logs else "-"
+			playsound("../assets/alarm_sound.mp3", False) if person_id in self.dangerous_people_logs else "-"
 
 			tags = ('danger',) if status == "ОПАСЕН" else ()
 			
