@@ -13,7 +13,7 @@
 
 Адаптивное решение для выявления потенциально опасных ситуаций в реальном времени.  
 
-![Banner](https://via.placeholder.com/1200x400/1a1a2e/e94560?text=V(AN)²+-+AI+for+Security)
+![Banner](https://via.placeholder.com/1200x400/1a1a2e/e94560?text=V(AN)²+-+AI+for+Security](https://github.com/KTOTO9567578347/VAN/blob/master/assets/photo_5357162727946186622_y.jpg)
 ---
 
 ## 🎯 Основные задачи  
