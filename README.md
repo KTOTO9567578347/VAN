@@ -1,4 +1,4 @@
-# 🚀 V(AN)² — Vision (Audio) Neural Network  
+# 🚀 V(AN)² — Video Audio Affect Neural Network  
 
 **Программный комплекс для анализа эмоционального состояния и оценки уровня угрозы**  
 
