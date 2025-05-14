@@ -1,4 +1,4 @@
-### VAN
+# V(AN)2
 
 <img src="assets/header.png" width="800" height="100" />
 
