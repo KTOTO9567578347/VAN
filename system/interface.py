@@ -10,6 +10,7 @@ from datetime import datetime as dt
 from pygrabber.dshow_graph import FilterGraph
 from sys import exit
 from playsound import playsound
+from camera_selection.select_camera import CameraManagerApp
 vid_save_path = "."
 
 import pyaudio
@@ -105,7 +106,9 @@ class main_win:
 
 
 		self.selected_camera = tk.StringVar()
-		self.cameras_list_widget = ttk.Combobox(self.app, width=27, textvariable = self.selected_camera)
+		
+		self.CameraSelectionTable = CameraManagerApp(self.app)
+		#self.cameras_list_widget = ttk.Combobox(self.app, width=27, textvariable = self.selected_camera)
 
 		
 		self.selected_audio = tk.StringVar()        
@@ -114,13 +117,15 @@ class main_win:
 		self.spectrogram_label = tk.Label(self.app, bg="#CDCDCD")
 		self.MainCanvas.create_window((1200, 40), window=self.spectrogram_label, anchor=tk.NW)
 
-		self.cam_recap_but_widget = ttk.Button(text='Захват видео',
-										 style='TButton',
-										 command= self.cv.recap_camera
-										 )
-		self.cam_list_update_but_widget = ttk.Button(text='Обновить камеры',
-											command= self.cv.update_camera_list
-											)
+		#self.cam_recap_but_widget = ttk.Button(text='Захват видео',
+		#								 style='TButton',
+		#								 command= self.cv.recap_camera
+		#								 )
+
+		#self.cam_list_update_but_widget = ttk.Button(text='Обновить камеры',
+		#									command= self.cv.update_camera_list
+		#									)
+
 		self.return_but = ttk.Button(text='Вернуться',
 							   command=self.go_to_start
 							   )
@@ -172,13 +177,13 @@ class main_win:
 								cb.config(text = "Микрофон активен             " if var.get() else "Активировать запись аудио"))
 
 
-		self.camera_label = tk.Label(
-        self.app,
-        text="Выбор камеры:",
-        bg=self.bg_color,
-        fg=self.alt_text_color,
-        font=('Helvetica', 12, 'bold')
-    )
+		#self.camera_label = tk.Label(
+        #self.app,
+        #text="Выбор камеры:",
+        #bg=self.bg_color,
+        #fg=self.alt_text_color,
+        #font=('Helvetica', 12, 'bold')
+    	#)
     
 		self.microphone_label = tk.Label(
 			self.app,
@@ -209,14 +214,14 @@ class main_win:
 			command=self.change_vid_state
 		)
 
-		self.MainCanvas.create_window((20, 20), window=self.table, anchor=tk.NW, width=800, height=200)
-		self.MainCanvas.create_window((840, 0), window=self.camera_label, anchor=tk.NW)
-		self.MainCanvas.create_window((840, 30), window=self.cameras_list_widget, anchor=tk.NW)
-		self.MainCanvas.create_window((840, 70), window=self.cam_recap_but_widget, anchor=tk.NW)
-		self.MainCanvas.create_window((840, 110), window=self.cam_list_update_but_widget, anchor=tk.NW)
-		self.MainCanvas.create_window((840, 150), window=self.is_on_air_widget_checkbox, anchor=tk.NW)
+		self.MainCanvas.create_window((20, 20), window=self.table, anchor=tk.NW, width=600, height=200)
+		#self.MainCanvas.create_window((840, 0), window=self.camera_label, anchor=tk.NW)
+		#self.MainCanvas.create_window((840, 30), window=self.cameras_list_widget, anchor=tk.NW)
+		#self.MainCanvas.create_window((840, 70), window=self.cam_recap_but_widget, anchor=tk.NW)
+		#self.MainCanvas.create_window((840, 110), window=self.cam_list_update_but_widget, anchor=tk.NW)
+		self.MainCanvas.create_window((840, 270), window=self.is_on_air_widget_checkbox, anchor=tk.NW)
 		self.MainCanvas.create_window((20, 280), window=self.return_but, anchor=tk.NW)
-		self.MainCanvas.create_window((840, 190), window=self.is_audio_on_air_widget_checkbox, anchor=tk.NW)
+		self.MainCanvas.create_window((840, 300), window=self.is_audio_on_air_widget_checkbox, anchor=tk.NW)
 		self.MainCanvas.create_window((1300, 290), window=self.play_button, anchor=tk.NW)
 		self.MainCanvas.create_window((20, 250), window=self.voice_class_text, anchor=tk.NW)
 		self.MainCanvas.create_window((1200, 0), window=self.microphone_label, anchor=tk.NW)
