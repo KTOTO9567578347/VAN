@@ -7,8 +7,8 @@ from typing import List, Dict, Optional
 from camera_selection.json_api import JsonAPI
 
 class CameraManagerApp:
-    def __init__(self, root):
-        self.root = root
+    def __init__(self, main_app):
+        self.root = tk.Canvas(main_app)
         self.root.title("Менеджер камер")
         self.root.geometry("800x600")
         
